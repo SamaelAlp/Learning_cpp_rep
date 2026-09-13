@@ -1,0 +1,20 @@
+Message.DefaultConstructionIsEmpty 2 0.00151113
+Message.MoveDoesNotInvokeCopy 2 0.00164666
+Message.CopyInvokesCopyNotMove 2 0.00146779
+ChatStore.PostingTemporaryDoesNotCopy 2 0.00143416
+ChatStore.PostingLvalueCopies 2 0.00121179
+ChatStore.CreateRoomIncreasesCount 2 0.00162653
+ChatStore.DuplicateCreateIsNoop 2 0.00152846
+ChatStore.HistoryReturnsNullptrForUnknownRoom 2 0.00142143
+ChatStore.HistoryReturnsMessagesAfterPost 2 0.00184912
+ChatStore.PostToUnknownRoomIsIgnored 2 0.00148289
+ChatStore.ForEachRoomVisitsAll 2 0.00125012
+OwningBuffer.DefaultIsEmpty 2 0.00179248
+OwningBuffer.ConstructWithSize 2 0.00157672
+OwningBuffer.CopyProducesIndependentMemory 2 0.00128886
+OwningBuffer.CopyAssignmentProducesIndependentMemory 2 0.00109615
+OwningBuffer.MoveLeavesSourceInValidState 2 0.00132571
+OwningBuffer.MoveAssignment 2 0.00187997
+OwningBuffer.SelfAssignmentDoesNotBreakObject 2 0.00200112
+OwningBuffer.SwapWorks 2 0.00125083
+---

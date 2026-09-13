@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/chat_tests.dir/link.d CMakeFiles/chat_tests.dir/tests/test_message.cpp.o CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o -o chat_tests  libchat_core.a lib/libgtest_main.a lib/libgtest.a

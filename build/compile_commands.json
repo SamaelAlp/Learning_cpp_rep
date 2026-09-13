@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_core.dir/src/message.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/message.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/src/message.cpp",
+  "output": "CMakeFiles/chat_core.dir/src/message.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/owning_buffer.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/src/owning_buffer.cpp",
+  "output": "CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_core.dir/src/chat_store.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/chat_store.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/src/chat_store.cpp",
+  "output": "CMakeFiles/chat_core.dir/src/chat_store.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/chat_cli/main.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/src/chat_cli/main.cpp",
+  "output": "CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_tests.dir/tests/test_message.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_message.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_owning_buffer.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_owning_buffer.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wshadow -o CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_store.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_store.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/include\" -I\"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wshadow -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wshadow -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -I\"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wshadow -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/src/gtest-all.cc\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/include\" -isystem \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest\" -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Wshadow -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c \"/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

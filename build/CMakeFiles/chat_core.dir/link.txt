@@ -1,0 +1,2 @@
+/usr/bin/ar qc libchat_core.a CMakeFiles/chat_core.dir/src/message.cpp.o CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o CMakeFiles/chat_core.dir/src/chat_store.cpp.o
+/usr/bin/ranlib libchat_core.a
