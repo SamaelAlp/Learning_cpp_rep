@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/chat_cli.dir/link.d CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o -o chat_cli  libchat_core.a

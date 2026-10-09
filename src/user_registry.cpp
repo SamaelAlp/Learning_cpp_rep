@@ -1,0 +1,1 @@
+#include "chat_core/user_registry.hpp"
