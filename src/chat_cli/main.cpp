@@ -165,6 +165,7 @@ int main() {
                       << "  /msg <room> <text>\n"
                       << "  /reaction <room> <emoji>\n"
                       << "  /who\n"
+                      << "  /broadcast\n"
                       << "  /history <room>\n"
                       << "  /type <room> <index>\n"
                       << "  /react <room> <index>\n"
