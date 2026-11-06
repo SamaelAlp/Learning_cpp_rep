@@ -4,7 +4,9 @@
 CMakeFiles/chat_core.dir/src/chat_store.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/src/chat_store.cpp \
   /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/chat_store.hpp \
   /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp \
+  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/history_iterator.hpp \
   /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/message.hpp \
+  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/ring_buffer.hpp \
   /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -862,17 +864,15 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/c++/15/cctype:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/c++/15/bits/ranges_uninitialized.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/c++/15/bits/utility.h:
 
 /usr/include/linux/close_range.h:
-
-/usr/include/c++/15/bits/unique_ptr.h:
 
 /usr/include/c++/15/bits/uniform_int_dist.h:
 
@@ -890,9 +890,11 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
 /usr/include/c++/15/bits/stl_tempbuf.h:
+
+/usr/include/c++/15/bits/ranges_uninitialized.h:
+
+/usr/include/c++/15/cctype:
 
 /usr/include/c++/15/bits/unicode.h:
 
@@ -966,17 +968,29 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/c++/15/bits/max_size_type.h:
 
-/usr/include/c++/15/bits/localefwd.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/c++/15/bits/stl_algobase.h:
+/usr/include/c++/15/bits/stream_iterator.h:
 
-/usr/include/c++/15/bits/stl_relops.h:
+/usr/include/c++/15/bits/ostream_insert.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+/usr/include/c++/15/bits/ranges_algo.h:
 
-/usr/include/c++/15/bits/version.h:
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/include/c++/15/bits/concept_check.h:
+/usr/include/c++/15/bits/stl_function.h:
+
+/usr/include/c++/15/cwchar:
+
+/usr/include/c++/15/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/15/bits/locale_facets.tcc:
+
+/usr/include/c++/15/bits/locale_conv.h:
+
+/usr/include/ctype.h:
 
 /usr/include/linux/limits.h:
 
@@ -998,9 +1012,13 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/asm-generic/int-ll64.h:
+/usr/include/c++/15/bits/localefwd.h:
 
-/usr/include/c++/15/bits/memoryfwd.h:
+/usr/include/c++/15/bits/stl_algobase.h:
+
+/usr/include/c++/15/bits/stl_relops.h:
+
+/home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/history_iterator.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -1012,23 +1030,13 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /home/apal/Рабочий\ стол/Learning_cpp/src/chat_store.cpp:
 
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/15/bits/memoryfwd.h:
+
 /usr/include/c++/15/bits/formatfwd.h:
 
 /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/chat_store.hpp:
-
-/usr/include/c++/15/bits/align.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/15/bits/ostream.h:
-
-/usr/include/c++/15/bits/streambuf.tcc:
-
-/usr/include/c++/15/bits/basic_string.tcc:
-
-/usr/include/c++/15/bits/alloc_traits.h:
-
-/usr/include/c++/15/bits/algorithmfwd.h:
 
 /usr/include/c++/15/bits/stl_pair.h:
 
@@ -1050,8 +1058,6 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/c++/15/tuple:
 
-/usr/include/c++/15/bits/ios_base.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/asm-generic/bitsperlong.h:
@@ -1066,6 +1072,20 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp:
 
+/usr/include/c++/15/bits/alloc_traits.h:
+
+/home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/ring_buffer.hpp:
+
+/usr/include/c++/15/bits/ios_base.h:
+
+/usr/include/c++/15/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/15/bits/unique_ptr.h:
+
+/usr/include/c++/15/bits/algorithmfwd.h:
+
 /usr/include/c++/15/bits/atomic_base.h:
 
 /usr/include/c++/15/bits/shared_ptr.h:
@@ -1079,6 +1099,12 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 /usr/include/c++/15/bits/nested_exception.h:
 
 /usr/include/linux/sched/types.h:
+
+/usr/include/c++/15/bits/ostream.h:
+
+/usr/include/c++/15/bits/streambuf.tcc:
+
+/usr/include/c++/15/bits/basic_string.tcc:
 
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
@@ -1122,6 +1148,12 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/c++/15/streambuf:
 
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
+/usr/include/c++/15/bits/version.h:
+
 /usr/include/c++/15/bits/allocated_ptr.h:
 
 /usr/include/c++/15/bits/istream.tcc:
@@ -1139,20 +1171,6 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 /usr/include/x86_64-linux-gnu/bits/syscall.h:
 
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/15/bits/stl_function.h:
-
-/usr/include/c++/15/cwchar:
-
-/usr/include/c++/15/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/c++/15/bits/locale_facets.tcc:
-
-/usr/include/c++/15/bits/locale_conv.h:
-
-/usr/include/ctype.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -1196,6 +1214,10 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 
 /usr/include/c++/15/bits/invoke.h:
 
+/usr/include/c++/15/new:
+
+/usr/include/linux/errno.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/15/bits/iterator_concepts.h:
@@ -1215,16 +1237,6 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 /usr/include/c++/15/bits/cxxabi_forced.h:
 
 /usr/include/c++/15/map:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/15/bits/stream_iterator.h:
-
-/usr/include/c++/15/bits/ostream_insert.h:
-
-/usr/include/c++/15/bits/ranges_algo.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/15/cerrno:
 
@@ -1295,10 +1307,6 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/15/string_view:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/15/new:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -1439,5 +1447,3 @@ CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o: /home/apal/Рабочий\ с�
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:

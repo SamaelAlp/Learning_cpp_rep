@@ -5,7 +5,9 @@ CMakeFiles/chat_core.dir/src/chat_store.cpp.o
  /home/apal/Рабочий стол/Learning_cpp/src/chat_store.cpp
  /home/apal/Рабочий стол/Learning_cpp/include/chat_core/chat_store.hpp
  /home/apal/Рабочий стол/Learning_cpp/include/chat_core/concepts.hpp
+ /home/apal/Рабочий стол/Learning_cpp/include/chat_core/history_iterator.hpp
  /home/apal/Рабочий стол/Learning_cpp/include/chat_core/message.hpp
+ /home/apal/Рабочий стол/Learning_cpp/include/chat_core/ring_buffer.hpp
  /home/apal/Рабочий стол/Learning_cpp/include/chat_core/spy.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

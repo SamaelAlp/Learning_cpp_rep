@@ -497,6 +497,54 @@ tests/test_dangling_range.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s
 .PHONY : tests/test_dangling_range.cpp.s
 
+tests/test_history_iterator.o: tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.o
+
+# target to build an object file
+tests/test_history_iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.cpp.o
+
+tests/test_history_iterator.i: tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.i
+
+# target to preprocess a source file
+tests/test_history_iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.cpp.i
+
+tests/test_history_iterator.s: tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.s
+
+# target to generate assembly for a file
+tests/test_history_iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.cpp.s
+
+tests/test_invalidation.o: tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.o
+
+# target to build an object file
+tests/test_invalidation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.cpp.o
+
+tests/test_invalidation.i: tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.i
+
+# target to preprocess a source file
+tests/test_invalidation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.cpp.i
+
+tests/test_invalidation.s: tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.s
+
+# target to generate assembly for a file
+tests/test_invalidation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.cpp.s
+
 tests/test_lexer.o: tests/test_lexer.cpp.o
 .PHONY : tests/test_lexer.o
 
@@ -617,6 +665,30 @@ tests/test_ranges.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s
 .PHONY : tests/test_ranges.cpp.s
 
+tests/test_ring_buffer.o: tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.o
+
+# target to build an object file
+tests/test_ring_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.cpp.o
+
+tests/test_ring_buffer.i: tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.i
+
+# target to preprocess a source file
+tests/test_ring_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.cpp.i
+
+tests/test_ring_buffer.s: tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.s
+
+# target to generate assembly for a file
+tests/test_ring_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -670,6 +742,12 @@ help:
 	@echo "... tests/test_dangling_range.o"
 	@echo "... tests/test_dangling_range.i"
 	@echo "... tests/test_dangling_range.s"
+	@echo "... tests/test_history_iterator.o"
+	@echo "... tests/test_history_iterator.i"
+	@echo "... tests/test_history_iterator.s"
+	@echo "... tests/test_invalidation.o"
+	@echo "... tests/test_invalidation.i"
+	@echo "... tests/test_invalidation.s"
 	@echo "... tests/test_lexer.o"
 	@echo "... tests/test_lexer.i"
 	@echo "... tests/test_lexer.s"
@@ -685,6 +763,9 @@ help:
 	@echo "... tests/test_ranges.o"
 	@echo "... tests/test_ranges.i"
 	@echo "... tests/test_ranges.s"
+	@echo "... tests/test_ring_buffer.o"
+	@echo "... tests/test_ring_buffer.i"
+	@echo "... tests/test_ring_buffer.s"
 .PHONY : help
 
 

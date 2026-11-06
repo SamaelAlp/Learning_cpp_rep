@@ -226,6 +226,48 @@ CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_command_registry.cpp" -o CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s
 
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_ring_buffer.cpp
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp" > CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp" -o CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_history_iterator.cpp
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp" > CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp" -o CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_invalidation.cpp
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp" > CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp" -o CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s
+
 # Object files for target chat_tests
 chat_tests_OBJECTS = \
 "CMakeFiles/chat_tests.dir/tests/test_message.cpp.o" \
@@ -238,7 +280,10 @@ chat_tests_OBJECTS = \
 "CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o" \
 "CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o" \
 "CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o"
+"CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o"
 
 # External object files for target chat_tests
 chat_tests_EXTERNAL_OBJECTS =
@@ -254,13 +299,16 @@ chat_tests: CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/build.make
 chat_tests: CMakeFiles/chat_tests.dir/compiler_depend.ts
 chat_tests: libchat_core.a
 chat_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
 chat_tests: /usr/lib/x86_64-linux-gnu/libgtest.a
 chat_tests: CMakeFiles/chat_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable chat_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable chat_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chat_tests.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=chat_tests -D "TEST_EXECUTABLE=/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/home/apal/Рабочий стол/Learning_cpp/build" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=chat_tests_TESTS -D "CTEST_FILE=/home/apal/Рабочий стол/Learning_cpp/build/chat_tests[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-4.2/Modules/GoogleTestAddTests.cmake
 
