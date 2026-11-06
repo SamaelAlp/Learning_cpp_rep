@@ -1,0 +1,317 @@
+{
+  "tests": 49,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Message",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "TextMessageCreation",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 10
+        },
+        {
+          "name": "SystemMessageCreation",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 21
+        },
+        {
+          "name": "ReactionMessageCreation",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 31
+        },
+        {
+          "name": "ReactionMessageTryReact",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 43
+        },
+        {
+          "name": "TextMessageTryReactFails",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 54
+        },
+        {
+          "name": "MoveDoesNotInvokeCopy",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 63
+        },
+        {
+          "name": "CopyInvokesCopyNotMove",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message.cpp",
+          "line": 84
+        }
+      ]
+    },
+    {
+      "name": "OwningBuffer",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "DefaultIsEmpty",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 9
+        },
+        {
+          "name": "ConstructWithSize",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 15
+        },
+        {
+          "name": "CopyProducesIndependentMemory",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 25
+        },
+        {
+          "name": "CopyAssignmentProducesIndependentMemory",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 41
+        },
+        {
+          "name": "MoveLeavesSourceInValidState",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 52
+        },
+        {
+          "name": "MoveAssignment",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 67
+        },
+        {
+          "name": "SelfAssignmentDoesNotBreakObject",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 78
+        },
+        {
+          "name": "SwapWorks",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "name": "ChatStore",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "CreateRoomIncreasesCount",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 11
+        },
+        {
+          "name": "RoomReturnsNullptrForUnknown",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 18
+        },
+        {
+          "name": "RoomReturnsPointerForKnown",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 23
+        },
+        {
+          "name": "AddMessageToRoom",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 29
+        },
+        {
+          "name": "CreateUserAndFind",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 44
+        },
+        {
+          "name": "RemoveUser",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "name": "Lexer",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "EmptyInput",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 10
+        },
+        {
+          "name": "SingleToken",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 16
+        },
+        {
+          "name": "MultipleTokens",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 22
+        },
+        {
+          "name": "ExtraSpaces",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 29
+        },
+        {
+          "name": "QuotedString",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 36
+        },
+        {
+          "name": "QuotedStringWithSpaces",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 44
+        },
+        {
+          "name": "MsgRestOfLine",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 50
+        },
+        {
+          "name": "NoStringAllocations",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_lexer.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "Dangling",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "TokenizeOnTemporaryStringIsDangerous",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_dangling.cpp",
+          "line": 12
+        },
+        {
+          "name": "ParseResultSurvivesInputString",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_dangling.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "Concepts",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "NickLikeAcceptsValidTypes",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_concepts.cpp",
+          "line": 12
+        },
+        {
+          "name": "MessageIsSerializable",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_concepts.cpp",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "name": "Ranges",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "HistoryPipelineIsLazy",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ranges.cpp",
+          "line": 10
+        },
+        {
+          "name": "SortWithProjection",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ranges.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "MessageId",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultSpaceshipOperator",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message_id.cpp",
+          "line": 7
+        },
+        {
+          "name": "ComparisonWithDifferentSeq",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_message_id.cpp",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "name": "DanglingRange",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DemonstratingTheTrap",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_dangling_range.cpp",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "name": "Convert",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "StringView",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 10
+        },
+        {
+          "name": "String",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 15
+        },
+        {
+          "name": "Int",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 20
+        },
+        {
+          "name": "Double",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 25
+        },
+        {
+          "name": "RoomName",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 30
+        },
+        {
+          "name": "RoomNameWithoutHash",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 35
+        },
+        {
+          "name": "InvalidNumber",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_convert.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "CommandRegistry",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "RegisterAndExecute",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_command_registry.cpp",
+          "line": 10
+        },
+        {
+          "name": "WrongArity",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_command_registry.cpp",
+          "line": 22
+        },
+        {
+          "name": "UnknownCommand",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_command_registry.cpp",
+          "line": 34
+        },
+        {
+          "name": "MultipleArguments",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_command_registry.cpp",
+          "line": 42
+        }
+      ]
+    }
+  ]
+}

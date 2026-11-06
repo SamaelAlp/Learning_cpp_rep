@@ -1,0 +1,7 @@
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/chat_core.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/chat_cli.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/chat_tests.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/chat_compile_fail_test.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/test.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/edit_cache.dir
+/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/rebuild_cache.dir

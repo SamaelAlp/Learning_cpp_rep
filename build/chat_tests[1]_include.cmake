@@ -1,0 +1,5 @@
+if(EXISTS "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests[1]_tests.cmake")
+  include("/home/apal/Рабочий стол/Learning_cpp/build/chat_tests[1]_tests.cmake")
+else()
+  add_test(chat_tests_NOT_BUILT chat_tests_NOT_BUILT)
+endif()
