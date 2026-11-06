@@ -1,9 +1,10 @@
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /home/apal/Рабочий\ стол/Learning_cpp/tests/test_chat_store.cpp \
  /usr/include/stdc-predef.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/chat_store.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp \
- /usr/include/c++/15/concepts /usr/include/c++/15/bits/version.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/i_chat_store.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/message.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
+ /usr/include/c++/15/cstddef \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -14,7 +15,11 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
- /usr/include/c++/15/pstl/pstl_config.h /usr/include/c++/15/type_traits \
+ /usr/include/c++/15/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+ /usr/include/c++/15/bits/version.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp \
+ /usr/include/c++/15/concepts /usr/include/c++/15/type_traits \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/memoryfwd.h \
@@ -24,7 +29,6 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
@@ -126,18 +130,16 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/15/bits/charconv.h \
  /usr/include/c++/15/bits/basic_string.tcc \
- /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
+ /usr/include/c++/15/bits/memory_resource.h \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/include/c++/15/bits/ranges_util.h /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/message.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
- /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
- /usr/include/c++/15/ratio /usr/include/c++/15/cstdint \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/chrono \
+ /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
+ /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
@@ -247,8 +249,12 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /usr/include/c++/15/bits/ranges_uninitialized.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
  /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/utility \
- /usr/include/c++/15/bits/stl_relops.h /usr/include/c++/15/algorithm \
- /usr/include/c++/15/bits/ranges_algo.h \
+ /usr/include/c++/15/bits/stl_relops.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/chat_store.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/ring_buffer.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/history_iterator.hpp \
+ /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
+ /usr/include/c++/15/algorithm /usr/include/c++/15/bits/ranges_algo.h \
  /usr/include/c++/15/pstl/glue_algorithm_defs.h \
  /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
  /usr/include/c++/15/unordered_map \
@@ -259,8 +265,6 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: \
  /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/map \
  /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
  /usr/include/c++/15/bits/stl_multimap.h /usr/include/c++/15/ranges \
- /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/errors.hpp \
  /usr/include/gtest/gtest.h /usr/include/c++/15/set \
  /usr/include/c++/15/bits/stl_set.h \
  /usr/include/c++/15/bits/stl_multiset.h \

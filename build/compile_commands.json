@@ -31,6 +31,12 @@
 },
 {
   "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/chat_core.dir/src/engine_factory.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp",
+  "output": "CMakeFiles/chat_core.dir/src/engine_factory.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
   "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/src/chat_cli/main.cpp\"",
   "file": "/home/apal/Рабочий стол/Learning_cpp/src/chat_cli/main.cpp",
   "output": "CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o"
@@ -100,6 +106,36 @@
   "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_command_registry.cpp\"",
   "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_command_registry.cpp",
   "output": "CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_hash_engine.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_hash_engine.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_fnv1a.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_fnv1a.cpp",
+  "output": "CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o"
 },
 {
   "directory": "/home/apal/Рабочий стол/Learning_cpp/build",

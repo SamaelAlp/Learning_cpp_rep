@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/chat_core.dir/src/chat_store.cpp.o.d"
   "CMakeFiles/chat_core.dir/src/command_registry.cpp.o"
   "CMakeFiles/chat_core.dir/src/command_registry.cpp.o.d"
+  "CMakeFiles/chat_core.dir/src/engine_factory.cpp.o"
+  "CMakeFiles/chat_core.dir/src/engine_factory.cpp.o.d"
   "CMakeFiles/chat_core.dir/src/lexer.cpp.o"
   "CMakeFiles/chat_core.dir/src/lexer.cpp.o.d"
   "CMakeFiles/chat_core.dir/src/message.cpp.o"

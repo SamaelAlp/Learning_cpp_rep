@@ -1,5 +1,5 @@
 {
-  "tests": 49,
+  "tests": 82,
   "name": "AllTests",
   "testsuites": [
     {
@@ -86,42 +86,6 @@
           "name": "SwapWorks",
           "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_owning_buffer.cpp",
           "line": 91
-        }
-      ]
-    },
-    {
-      "name": "ChatStore",
-      "tests": 6,
-      "testsuite": [
-        {
-          "name": "CreateRoomIncreasesCount",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 11
-        },
-        {
-          "name": "RoomReturnsNullptrForUnknown",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 18
-        },
-        {
-          "name": "RoomReturnsPointerForKnown",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 23
-        },
-        {
-          "name": "AddMessageToRoom",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 29
-        },
-        {
-          "name": "CreateUserAndFind",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 44
-        },
-        {
-          "name": "RemoveUser",
-          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
-          "line": 54
         }
       ]
     },
@@ -310,6 +274,257 @@
           "name": "MultipleArguments",
           "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_command_registry.cpp",
           "line": 42
+        }
+      ]
+    },
+    {
+      "name": "RingBuffer",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "EmptyOnConstruction",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 9
+        },
+        {
+          "name": "PushBackIncreasesSize",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 16
+        },
+        {
+          "name": "EvictsOldestOnOverflow",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 25
+        },
+        {
+          "name": "WraparoundWorks",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 38
+        },
+        {
+          "name": "AtThrowsOnOutOfRange",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 52
+        },
+        {
+          "name": "ClearResetsState",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_ring_buffer.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "HistoryIterator",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EmptyRange",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_history_iterator.cpp",
+          "line": 18
+        },
+        {
+          "name": "IterateOverFullBuffer",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_history_iterator.cpp",
+          "line": 23
+        },
+        {
+          "name": "IterateAfterEviction",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_history_iterator.cpp",
+          "line": 37
+        },
+        {
+          "name": "WorksWithSTLAlgorithms",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_history_iterator.cpp",
+          "line": 53
+        },
+        {
+          "name": "ConstIterator",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_history_iterator.cpp",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "name": "Invalidation",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "EraseDuringIterationIsDangerous",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_invalidation.cpp",
+          "line": 10
+        },
+        {
+          "name": "RingBufferInvalidationOnPushBack",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_invalidation.cpp",
+          "line": 24
+        },
+        {
+          "name": "MapIteratorInvalidationOnErase",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_invalidation.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "HashTable",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "EmptyOnConstruction",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 9
+        },
+        {
+          "name": "TryEmplaceInserts",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 15
+        },
+        {
+          "name": "TryEmplaceDoesNotDuplicate",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 24
+        },
+        {
+          "name": "FindReturnsPointer",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 33
+        },
+        {
+          "name": "EraseRemovesElement",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 44
+        },
+        {
+          "name": "RehashOnLoadFactor",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 52
+        },
+        {
+          "name": "ForEachKey",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_hash_engine.cpp",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "name": "Fnv1a",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DifferentStringsDifferentHashes",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_fnv1a.cpp",
+          "line": 11
+        },
+        {
+          "name": "EmptyString",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_fnv1a.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "BadHash",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "AnagramsCollide",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_fnv1a.cpp",
+          "line": 29
+        },
+        {
+          "name": "SameLengthCollisions",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_fnv1a.cpp",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "name": "Engines\/ChatStoreTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "CreateRoomIncreasesCount\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 21
+        },
+        {
+          "name": "CreateRoomIncreasesCount\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 21
+        },
+        {
+          "name": "RoomReturnsNullptrForUnknown\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 29
+        },
+        {
+          "name": "RoomReturnsNullptrForUnknown\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 29
+        },
+        {
+          "name": "RoomReturnsPointerForKnown\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 33
+        },
+        {
+          "name": "RoomReturnsPointerForKnown\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 33
+        },
+        {
+          "name": "AddMessageToRoom\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 38
+        },
+        {
+          "name": "AddMessageToRoom\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 38
+        },
+        {
+          "name": "CreateUserAndFind\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 50
+        },
+        {
+          "name": "CreateUserAndFind\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 50
+        },
+        {
+          "name": "RemoveUser\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 59
+        },
+        {
+          "name": "RemoveUser\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 59
+        },
+        {
+          "name": "ForEachRoomName\/std",
+          "value_param": "\"std\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 65
+        },
+        {
+          "name": "ForEachRoomName\/hash",
+          "value_param": "\"hash\"",
+          "file": "\/home\/apal\/\u00D0\u00A0\u00D0\u00B0\u00D0\u00B1\u00D0\u00BE\u00D1\u0087\u00D0\u00B8\u00D0\u00B9 \u00D1\u0081\u00D1\u0082\u00D0\u00BE\u00D0\u00BB\/Learning_cpp\/tests\/test_chat_store.cpp",
+          "line": 65
         }
       ]
     }

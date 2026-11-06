@@ -1,10 +1,10 @@
-Start testing: Oct 24 09:25 +05
+Start testing: Nov 06 19:26 +05
 ----------------------------------------------------------
-1/50 Testing: Message.TextMessageCreation
-1/50 Test: Message.TextMessageCreation
+1/83 Testing: Message.TextMessageCreation
+1/83 Test: Message.TextMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.TextMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.TextMessageCreation" start time: Oct 24 09:25 +05
+"Message.TextMessageCreation" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = Message.TextMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.TextMessageCreation" end time: Oct 24 09:25 +05
+"Message.TextMessageCreation" end time: Nov 06 19:26 +05
 "Message.TextMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/50 Testing: Message.SystemMessageCreation
-2/50 Test: Message.SystemMessageCreation
+2/83 Testing: Message.SystemMessageCreation
+2/83 Test: Message.SystemMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.SystemMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.SystemMessageCreation" start time: Oct 24 09:25 +05
+"Message.SystemMessageCreation" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = Message.SystemMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.SystemMessageCreation" end time: Oct 24 09:25 +05
+"Message.SystemMessageCreation" end time: Nov 06 19:26 +05
 "Message.SystemMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/50 Testing: Message.ReactionMessageCreation
-3/50 Test: Message.ReactionMessageCreation
+3/83 Testing: Message.ReactionMessageCreation
+3/83 Test: Message.ReactionMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.ReactionMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.ReactionMessageCreation" start time: Oct 24 09:25 +05
+"Message.ReactionMessageCreation" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = Message.ReactionMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.ReactionMessageCreation" end time: Oct 24 09:25 +05
+"Message.ReactionMessageCreation" end time: Nov 06 19:26 +05
 "Message.ReactionMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/50 Testing: Message.ReactionMessageTryReact
-4/50 Test: Message.ReactionMessageTryReact
+4/83 Testing: Message.ReactionMessageTryReact
+4/83 Test: Message.ReactionMessageTryReact
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.ReactionMessageTryReact" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.ReactionMessageTryReact" start time: Oct 24 09:25 +05
+"Message.ReactionMessageTryReact" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = Message.ReactionMessageTryReact
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.ReactionMessageTryReact" end time: Oct 24 09:25 +05
+"Message.ReactionMessageTryReact" end time: Nov 06 19:26 +05
 "Message.ReactionMessageTryReact" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/50 Testing: Message.TextMessageTryReactFails
-5/50 Test: Message.TextMessageTryReactFails
+5/83 Testing: Message.TextMessageTryReactFails
+5/83 Test: Message.TextMessageTryReactFails
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.TextMessageTryReactFails" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.TextMessageTryReactFails" start time: Oct 24 09:25 +05
+"Message.TextMessageTryReactFails" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = Message.TextMessageTryReactFails
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.TextMessageTryReactFails" end time: Oct 24 09:25 +05
+"Message.TextMessageTryReactFails" end time: Nov 06 19:26 +05
 "Message.TextMessageTryReactFails" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/50 Testing: Message.MoveDoesNotInvokeCopy
-6/50 Test: Message.MoveDoesNotInvokeCopy
+6/83 Testing: Message.MoveDoesNotInvokeCopy
+6/83 Test: Message.MoveDoesNotInvokeCopy
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.MoveDoesNotInvokeCopy" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.MoveDoesNotInvokeCopy" start time: Oct 24 09:25 +05
+"Message.MoveDoesNotInvokeCopy" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = Message.MoveDoesNotInvokeCopy
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.MoveDoesNotInvokeCopy" end time: Oct 24 09:25 +05
+"Message.MoveDoesNotInvokeCopy" end time: Nov 06 19:26 +05
 "Message.MoveDoesNotInvokeCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/50 Testing: Message.CopyInvokesCopyNotMove
-7/50 Test: Message.CopyInvokesCopyNotMove
+7/83 Testing: Message.CopyInvokesCopyNotMove
+7/83 Test: Message.CopyInvokesCopyNotMove
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.CopyInvokesCopyNotMove" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.CopyInvokesCopyNotMove" start time: Oct 24 09:25 +05
+"Message.CopyInvokesCopyNotMove" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = Message.CopyInvokesCopyNotMove
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.CopyInvokesCopyNotMove" end time: Oct 24 09:25 +05
+"Message.CopyInvokesCopyNotMove" end time: Nov 06 19:26 +05
 "Message.CopyInvokesCopyNotMove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/50 Testing: OwningBuffer.DefaultIsEmpty
-8/50 Test: OwningBuffer.DefaultIsEmpty
+8/83 Testing: OwningBuffer.DefaultIsEmpty
+8/83 Test: OwningBuffer.DefaultIsEmpty
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.DefaultIsEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.DefaultIsEmpty" start time: Oct 24 09:25 +05
+"OwningBuffer.DefaultIsEmpty" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = OwningBuffer.DefaultIsEmpty
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.DefaultIsEmpty" end time: Oct 24 09:25 +05
+"OwningBuffer.DefaultIsEmpty" end time: Nov 06 19:26 +05
 "OwningBuffer.DefaultIsEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/50 Testing: OwningBuffer.ConstructWithSize
-9/50 Test: OwningBuffer.ConstructWithSize
+9/83 Testing: OwningBuffer.ConstructWithSize
+9/83 Test: OwningBuffer.ConstructWithSize
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.ConstructWithSize" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.ConstructWithSize" start time: Oct 24 09:25 +05
+"OwningBuffer.ConstructWithSize" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -236,18 +236,18 @@ Note: Google Test filter = OwningBuffer.ConstructWithSize
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.ConstructWithSize" end time: Oct 24 09:25 +05
+"OwningBuffer.ConstructWithSize" end time: Nov 06 19:26 +05
 "OwningBuffer.ConstructWithSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/50 Testing: OwningBuffer.CopyProducesIndependentMemory
-10/50 Test: OwningBuffer.CopyProducesIndependentMemory
+10/83 Testing: OwningBuffer.CopyProducesIndependentMemory
+10/83 Test: OwningBuffer.CopyProducesIndependentMemory
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.CopyProducesIndependentMemory" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.CopyProducesIndependentMemory" start time: Oct 24 09:25 +05
+"OwningBuffer.CopyProducesIndependentMemory" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -263,18 +263,18 @@ Note: Google Test filter = OwningBuffer.CopyProducesIndependentMemory
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.CopyProducesIndependentMemory" end time: Oct 24 09:25 +05
+"OwningBuffer.CopyProducesIndependentMemory" end time: Nov 06 19:26 +05
 "OwningBuffer.CopyProducesIndependentMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/50 Testing: OwningBuffer.CopyAssignmentProducesIndependentMemory
-11/50 Test: OwningBuffer.CopyAssignmentProducesIndependentMemory
+11/83 Testing: OwningBuffer.CopyAssignmentProducesIndependentMemory
+11/83 Test: OwningBuffer.CopyAssignmentProducesIndependentMemory
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.CopyAssignmentProducesIndependentMemory" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.CopyAssignmentProducesIndependentMemory" start time: Oct 24 09:25 +05
+"OwningBuffer.CopyAssignmentProducesIndependentMemory" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -290,18 +290,18 @@ Note: Google Test filter = OwningBuffer.CopyAssignmentProducesIndependentMemory
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.CopyAssignmentProducesIndependentMemory" end time: Oct 24 09:25 +05
+"OwningBuffer.CopyAssignmentProducesIndependentMemory" end time: Nov 06 19:26 +05
 "OwningBuffer.CopyAssignmentProducesIndependentMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/50 Testing: OwningBuffer.MoveLeavesSourceInValidState
-12/50 Test: OwningBuffer.MoveLeavesSourceInValidState
+12/83 Testing: OwningBuffer.MoveLeavesSourceInValidState
+12/83 Test: OwningBuffer.MoveLeavesSourceInValidState
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.MoveLeavesSourceInValidState" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.MoveLeavesSourceInValidState" start time: Oct 24 09:25 +05
+"OwningBuffer.MoveLeavesSourceInValidState" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -317,18 +317,18 @@ Note: Google Test filter = OwningBuffer.MoveLeavesSourceInValidState
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.MoveLeavesSourceInValidState" end time: Oct 24 09:25 +05
+"OwningBuffer.MoveLeavesSourceInValidState" end time: Nov 06 19:26 +05
 "OwningBuffer.MoveLeavesSourceInValidState" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/50 Testing: OwningBuffer.MoveAssignment
-13/50 Test: OwningBuffer.MoveAssignment
+13/83 Testing: OwningBuffer.MoveAssignment
+13/83 Test: OwningBuffer.MoveAssignment
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.MoveAssignment" start time: Oct 24 09:25 +05
+"OwningBuffer.MoveAssignment" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -344,18 +344,18 @@ Note: Google Test filter = OwningBuffer.MoveAssignment
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.MoveAssignment" end time: Oct 24 09:25 +05
+"OwningBuffer.MoveAssignment" end time: Nov 06 19:26 +05
 "OwningBuffer.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/50 Testing: OwningBuffer.SelfAssignmentDoesNotBreakObject
-14/50 Test: OwningBuffer.SelfAssignmentDoesNotBreakObject
+14/83 Testing: OwningBuffer.SelfAssignmentDoesNotBreakObject
+14/83 Test: OwningBuffer.SelfAssignmentDoesNotBreakObject
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.SelfAssignmentDoesNotBreakObject" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.SelfAssignmentDoesNotBreakObject" start time: Oct 24 09:25 +05
+"OwningBuffer.SelfAssignmentDoesNotBreakObject" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -371,18 +371,18 @@ Note: Google Test filter = OwningBuffer.SelfAssignmentDoesNotBreakObject
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.SelfAssignmentDoesNotBreakObject" end time: Oct 24 09:25 +05
+"OwningBuffer.SelfAssignmentDoesNotBreakObject" end time: Nov 06 19:26 +05
 "OwningBuffer.SelfAssignmentDoesNotBreakObject" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/50 Testing: OwningBuffer.SwapWorks
-15/50 Test: OwningBuffer.SwapWorks
+15/83 Testing: OwningBuffer.SwapWorks
+15/83 Test: OwningBuffer.SwapWorks
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.SwapWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.SwapWorks" start time: Oct 24 09:25 +05
+"OwningBuffer.SwapWorks" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -398,180 +398,18 @@ Note: Google Test filter = OwningBuffer.SwapWorks
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.SwapWorks" end time: Oct 24 09:25 +05
+"OwningBuffer.SwapWorks" end time: Nov 06 19:26 +05
 "OwningBuffer.SwapWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/50 Testing: ChatStore.CreateRoomIncreasesCount
-16/50 Test: ChatStore.CreateRoomIncreasesCount
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.CreateRoomIncreasesCount" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.CreateRoomIncreasesCount" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.CreateRoomIncreasesCount
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.CreateRoomIncreasesCount
-[       OK ] ChatStore.CreateRoomIncreasesCount (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.CreateRoomIncreasesCount" end time: Oct 24 09:25 +05
-"ChatStore.CreateRoomIncreasesCount" time elapsed: 00:00:00
-----------------------------------------------------------
-
-17/50 Testing: ChatStore.RoomReturnsNullptrForUnknown
-17/50 Test: ChatStore.RoomReturnsNullptrForUnknown
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RoomReturnsNullptrForUnknown" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RoomReturnsNullptrForUnknown" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.RoomReturnsNullptrForUnknown
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.RoomReturnsNullptrForUnknown
-[       OK ] ChatStore.RoomReturnsNullptrForUnknown (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.RoomReturnsNullptrForUnknown" end time: Oct 24 09:25 +05
-"ChatStore.RoomReturnsNullptrForUnknown" time elapsed: 00:00:00
-----------------------------------------------------------
-
-18/50 Testing: ChatStore.RoomReturnsPointerForKnown
-18/50 Test: ChatStore.RoomReturnsPointerForKnown
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RoomReturnsPointerForKnown" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RoomReturnsPointerForKnown" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.RoomReturnsPointerForKnown
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.RoomReturnsPointerForKnown
-[       OK ] ChatStore.RoomReturnsPointerForKnown (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.RoomReturnsPointerForKnown" end time: Oct 24 09:25 +05
-"ChatStore.RoomReturnsPointerForKnown" time elapsed: 00:00:00
-----------------------------------------------------------
-
-19/50 Testing: ChatStore.AddMessageToRoom
-19/50 Test: ChatStore.AddMessageToRoom
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.AddMessageToRoom" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.AddMessageToRoom" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.AddMessageToRoom
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.AddMessageToRoom
-[       OK ] ChatStore.AddMessageToRoom (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.AddMessageToRoom" end time: Oct 24 09:25 +05
-"ChatStore.AddMessageToRoom" time elapsed: 00:00:00
-----------------------------------------------------------
-
-20/50 Testing: ChatStore.CreateUserAndFind
-20/50 Test: ChatStore.CreateUserAndFind
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.CreateUserAndFind" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.CreateUserAndFind" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.CreateUserAndFind
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.CreateUserAndFind
-[       OK ] ChatStore.CreateUserAndFind (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.CreateUserAndFind" end time: Oct 24 09:25 +05
-"ChatStore.CreateUserAndFind" time elapsed: 00:00:00
-----------------------------------------------------------
-
-21/50 Testing: ChatStore.RemoveUser
-21/50 Test: ChatStore.RemoveUser
-Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RemoveUser" "--gtest_also_run_disabled_tests"
-Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RemoveUser" start time: Oct 24 09:25 +05
-Output:
-----------------------------------------------------------
-Running main() from ./googletest/src/gtest_main.cc
-Note: Google Test filter = ChatStore.RemoveUser
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from ChatStore
-[ RUN      ] ChatStore.RemoveUser
-[       OK ] ChatStore.RemoveUser (0 ms)
-[----------] 1 test from ChatStore (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
-<end of output>
-Test time =   0.00 sec
-----------------------------------------------------------
-Test Passed.
-"ChatStore.RemoveUser" end time: Oct 24 09:25 +05
-"ChatStore.RemoveUser" time elapsed: 00:00:00
-----------------------------------------------------------
-
-22/50 Testing: Lexer.EmptyInput
-22/50 Test: Lexer.EmptyInput
+16/83 Testing: Lexer.EmptyInput
+16/83 Test: Lexer.EmptyInput
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.EmptyInput" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.EmptyInput" start time: Oct 24 09:25 +05
+"Lexer.EmptyInput" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -590,15 +428,15 @@ Note: Google Test filter = Lexer.EmptyInput
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.EmptyInput" end time: Oct 24 09:25 +05
+"Lexer.EmptyInput" end time: Nov 06 19:26 +05
 "Lexer.EmptyInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/50 Testing: Lexer.SingleToken
-23/50 Test: Lexer.SingleToken
+17/83 Testing: Lexer.SingleToken
+17/83 Test: Lexer.SingleToken
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.SingleToken" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.SingleToken" start time: Oct 24 09:25 +05
+"Lexer.SingleToken" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -617,15 +455,15 @@ Note: Google Test filter = Lexer.SingleToken
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.SingleToken" end time: Oct 24 09:25 +05
+"Lexer.SingleToken" end time: Nov 06 19:26 +05
 "Lexer.SingleToken" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/50 Testing: Lexer.MultipleTokens
-24/50 Test: Lexer.MultipleTokens
+18/83 Testing: Lexer.MultipleTokens
+18/83 Test: Lexer.MultipleTokens
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.MultipleTokens" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.MultipleTokens" start time: Oct 24 09:25 +05
+"Lexer.MultipleTokens" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -644,15 +482,15 @@ Note: Google Test filter = Lexer.MultipleTokens
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.MultipleTokens" end time: Oct 24 09:25 +05
+"Lexer.MultipleTokens" end time: Nov 06 19:26 +05
 "Lexer.MultipleTokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/50 Testing: Lexer.ExtraSpaces
-25/50 Test: Lexer.ExtraSpaces
+19/83 Testing: Lexer.ExtraSpaces
+19/83 Test: Lexer.ExtraSpaces
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.ExtraSpaces" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.ExtraSpaces" start time: Oct 24 09:25 +05
+"Lexer.ExtraSpaces" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -671,15 +509,15 @@ Note: Google Test filter = Lexer.ExtraSpaces
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.ExtraSpaces" end time: Oct 24 09:25 +05
+"Lexer.ExtraSpaces" end time: Nov 06 19:26 +05
 "Lexer.ExtraSpaces" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/50 Testing: Lexer.QuotedString
-26/50 Test: Lexer.QuotedString
+20/83 Testing: Lexer.QuotedString
+20/83 Test: Lexer.QuotedString
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.QuotedString" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.QuotedString" start time: Oct 24 09:25 +05
+"Lexer.QuotedString" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -695,18 +533,18 @@ Note: Google Test filter = Lexer.QuotedString
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.QuotedString" end time: Oct 24 09:25 +05
+"Lexer.QuotedString" end time: Nov 06 19:26 +05
 "Lexer.QuotedString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/50 Testing: Lexer.QuotedStringWithSpaces
-27/50 Test: Lexer.QuotedStringWithSpaces
+21/83 Testing: Lexer.QuotedStringWithSpaces
+21/83 Test: Lexer.QuotedStringWithSpaces
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.QuotedStringWithSpaces" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.QuotedStringWithSpaces" start time: Oct 24 09:25 +05
+"Lexer.QuotedStringWithSpaces" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -725,15 +563,15 @@ Note: Google Test filter = Lexer.QuotedStringWithSpaces
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.QuotedStringWithSpaces" end time: Oct 24 09:25 +05
+"Lexer.QuotedStringWithSpaces" end time: Nov 06 19:26 +05
 "Lexer.QuotedStringWithSpaces" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/50 Testing: Lexer.MsgRestOfLine
-28/50 Test: Lexer.MsgRestOfLine
+22/83 Testing: Lexer.MsgRestOfLine
+22/83 Test: Lexer.MsgRestOfLine
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.MsgRestOfLine" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.MsgRestOfLine" start time: Oct 24 09:25 +05
+"Lexer.MsgRestOfLine" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -749,18 +587,18 @@ Note: Google Test filter = Lexer.MsgRestOfLine
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.MsgRestOfLine" end time: Oct 24 09:25 +05
+"Lexer.MsgRestOfLine" end time: Nov 06 19:26 +05
 "Lexer.MsgRestOfLine" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/50 Testing: Lexer.NoStringAllocations
-29/50 Test: Lexer.NoStringAllocations
+23/83 Testing: Lexer.NoStringAllocations
+23/83 Test: Lexer.NoStringAllocations
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.NoStringAllocations" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.NoStringAllocations" start time: Oct 24 09:25 +05
+"Lexer.NoStringAllocations" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -779,15 +617,15 @@ Note: Google Test filter = Lexer.NoStringAllocations
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.NoStringAllocations" end time: Oct 24 09:25 +05
+"Lexer.NoStringAllocations" end time: Nov 06 19:26 +05
 "Lexer.NoStringAllocations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/50 Testing: Dangling.TokenizeOnTemporaryStringIsDangerous
-30/50 Test: Dangling.TokenizeOnTemporaryStringIsDangerous
+24/83 Testing: Dangling.TokenizeOnTemporaryStringIsDangerous
+24/83 Test: Dangling.TokenizeOnTemporaryStringIsDangerous
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Dangling.TokenizeOnTemporaryStringIsDangerous" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Dangling.TokenizeOnTemporaryStringIsDangerous" start time: Oct 24 09:25 +05
+"Dangling.TokenizeOnTemporaryStringIsDangerous" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -806,15 +644,15 @@ Note: Google Test filter = Dangling.TokenizeOnTemporaryStringIsDangerous
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Dangling.TokenizeOnTemporaryStringIsDangerous" end time: Oct 24 09:25 +05
+"Dangling.TokenizeOnTemporaryStringIsDangerous" end time: Nov 06 19:26 +05
 "Dangling.TokenizeOnTemporaryStringIsDangerous" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-31/50 Testing: Dangling.ParseResultSurvivesInputString
-31/50 Test: Dangling.ParseResultSurvivesInputString
+25/83 Testing: Dangling.ParseResultSurvivesInputString
+25/83 Test: Dangling.ParseResultSurvivesInputString
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Dangling.ParseResultSurvivesInputString" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Dangling.ParseResultSurvivesInputString" start time: Oct 24 09:25 +05
+"Dangling.ParseResultSurvivesInputString" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -833,15 +671,15 @@ Note: Google Test filter = Dangling.ParseResultSurvivesInputString
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Dangling.ParseResultSurvivesInputString" end time: Oct 24 09:25 +05
+"Dangling.ParseResultSurvivesInputString" end time: Nov 06 19:26 +05
 "Dangling.ParseResultSurvivesInputString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-32/50 Testing: Concepts.NickLikeAcceptsValidTypes
-32/50 Test: Concepts.NickLikeAcceptsValidTypes
+26/83 Testing: Concepts.NickLikeAcceptsValidTypes
+26/83 Test: Concepts.NickLikeAcceptsValidTypes
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Concepts.NickLikeAcceptsValidTypes" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Concepts.NickLikeAcceptsValidTypes" start time: Oct 24 09:25 +05
+"Concepts.NickLikeAcceptsValidTypes" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -860,15 +698,15 @@ Note: Google Test filter = Concepts.NickLikeAcceptsValidTypes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Concepts.NickLikeAcceptsValidTypes" end time: Oct 24 09:25 +05
+"Concepts.NickLikeAcceptsValidTypes" end time: Nov 06 19:26 +05
 "Concepts.NickLikeAcceptsValidTypes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/50 Testing: Concepts.MessageIsSerializable
-33/50 Test: Concepts.MessageIsSerializable
+27/83 Testing: Concepts.MessageIsSerializable
+27/83 Test: Concepts.MessageIsSerializable
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Concepts.MessageIsSerializable" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Concepts.MessageIsSerializable" start time: Oct 24 09:25 +05
+"Concepts.MessageIsSerializable" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -887,15 +725,15 @@ Note: Google Test filter = Concepts.MessageIsSerializable
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Concepts.MessageIsSerializable" end time: Oct 24 09:25 +05
+"Concepts.MessageIsSerializable" end time: Nov 06 19:26 +05
 "Concepts.MessageIsSerializable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-34/50 Testing: Ranges.HistoryPipelineIsLazy
-34/50 Test: Ranges.HistoryPipelineIsLazy
+28/83 Testing: Ranges.HistoryPipelineIsLazy
+28/83 Test: Ranges.HistoryPipelineIsLazy
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Ranges.HistoryPipelineIsLazy" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Ranges.HistoryPipelineIsLazy" start time: Oct 24 09:25 +05
+"Ranges.HistoryPipelineIsLazy" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -914,15 +752,15 @@ Note: Google Test filter = Ranges.HistoryPipelineIsLazy
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Ranges.HistoryPipelineIsLazy" end time: Oct 24 09:25 +05
+"Ranges.HistoryPipelineIsLazy" end time: Nov 06 19:26 +05
 "Ranges.HistoryPipelineIsLazy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-35/50 Testing: Ranges.SortWithProjection
-35/50 Test: Ranges.SortWithProjection
+29/83 Testing: Ranges.SortWithProjection
+29/83 Test: Ranges.SortWithProjection
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Ranges.SortWithProjection" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Ranges.SortWithProjection" start time: Oct 24 09:25 +05
+"Ranges.SortWithProjection" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -941,15 +779,15 @@ Note: Google Test filter = Ranges.SortWithProjection
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Ranges.SortWithProjection" end time: Oct 24 09:25 +05
+"Ranges.SortWithProjection" end time: Nov 06 19:26 +05
 "Ranges.SortWithProjection" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-36/50 Testing: MessageId.DefaultSpaceshipOperator
-36/50 Test: MessageId.DefaultSpaceshipOperator
+30/83 Testing: MessageId.DefaultSpaceshipOperator
+30/83 Test: MessageId.DefaultSpaceshipOperator
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=MessageId.DefaultSpaceshipOperator" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"MessageId.DefaultSpaceshipOperator" start time: Oct 24 09:25 +05
+"MessageId.DefaultSpaceshipOperator" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -968,15 +806,15 @@ Note: Google Test filter = MessageId.DefaultSpaceshipOperator
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MessageId.DefaultSpaceshipOperator" end time: Oct 24 09:25 +05
+"MessageId.DefaultSpaceshipOperator" end time: Nov 06 19:26 +05
 "MessageId.DefaultSpaceshipOperator" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-37/50 Testing: MessageId.ComparisonWithDifferentSeq
-37/50 Test: MessageId.ComparisonWithDifferentSeq
+31/83 Testing: MessageId.ComparisonWithDifferentSeq
+31/83 Test: MessageId.ComparisonWithDifferentSeq
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=MessageId.ComparisonWithDifferentSeq" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"MessageId.ComparisonWithDifferentSeq" start time: Oct 24 09:25 +05
+"MessageId.ComparisonWithDifferentSeq" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -995,15 +833,15 @@ Note: Google Test filter = MessageId.ComparisonWithDifferentSeq
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MessageId.ComparisonWithDifferentSeq" end time: Oct 24 09:25 +05
+"MessageId.ComparisonWithDifferentSeq" end time: Nov 06 19:26 +05
 "MessageId.ComparisonWithDifferentSeq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-38/50 Testing: DanglingRange.DemonstratingTheTrap
-38/50 Test: DanglingRange.DemonstratingTheTrap
+32/83 Testing: DanglingRange.DemonstratingTheTrap
+32/83 Test: DanglingRange.DemonstratingTheTrap
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=DanglingRange.DemonstratingTheTrap" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"DanglingRange.DemonstratingTheTrap" start time: Oct 24 09:25 +05
+"DanglingRange.DemonstratingTheTrap" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1022,15 +860,15 @@ Note: Google Test filter = DanglingRange.DemonstratingTheTrap
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DanglingRange.DemonstratingTheTrap" end time: Oct 24 09:25 +05
+"DanglingRange.DemonstratingTheTrap" end time: Nov 06 19:26 +05
 "DanglingRange.DemonstratingTheTrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/50 Testing: Convert.StringView
-39/50 Test: Convert.StringView
+33/83 Testing: Convert.StringView
+33/83 Test: Convert.StringView
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.StringView" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.StringView" start time: Oct 24 09:25 +05
+"Convert.StringView" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1049,15 +887,15 @@ Note: Google Test filter = Convert.StringView
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.StringView" end time: Oct 24 09:25 +05
+"Convert.StringView" end time: Nov 06 19:26 +05
 "Convert.StringView" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-40/50 Testing: Convert.String
-40/50 Test: Convert.String
+34/83 Testing: Convert.String
+34/83 Test: Convert.String
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.String" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.String" start time: Oct 24 09:25 +05
+"Convert.String" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1076,15 +914,15 @@ Note: Google Test filter = Convert.String
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.String" end time: Oct 24 09:25 +05
+"Convert.String" end time: Nov 06 19:26 +05
 "Convert.String" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-41/50 Testing: Convert.Int
-41/50 Test: Convert.Int
+35/83 Testing: Convert.Int
+35/83 Test: Convert.Int
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.Int" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.Int" start time: Oct 24 09:25 +05
+"Convert.Int" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1103,15 +941,15 @@ Note: Google Test filter = Convert.Int
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.Int" end time: Oct 24 09:25 +05
+"Convert.Int" end time: Nov 06 19:26 +05
 "Convert.Int" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-42/50 Testing: Convert.Double
-42/50 Test: Convert.Double
+36/83 Testing: Convert.Double
+36/83 Test: Convert.Double
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.Double" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.Double" start time: Oct 24 09:25 +05
+"Convert.Double" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1120,25 +958,25 @@ Note: Google Test filter = Convert.Double
 [----------] Global test environment set-up.
 [----------] 1 test from Convert
 [ RUN      ] Convert.Double
-[       OK ] Convert.Double (0 ms)
-[----------] 1 test from Convert (0 ms total)
+[       OK ] Convert.Double (64 ms)
+[----------] 1 test from Convert (64 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (64 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.Double" end time: Oct 24 09:25 +05
+"Convert.Double" end time: Nov 06 19:26 +05
 "Convert.Double" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-43/50 Testing: Convert.RoomName
-43/50 Test: Convert.RoomName
+37/83 Testing: Convert.RoomName
+37/83 Test: Convert.RoomName
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.RoomName" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.RoomName" start time: Oct 24 09:25 +05
+"Convert.RoomName" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1157,15 +995,15 @@ Note: Google Test filter = Convert.RoomName
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.RoomName" end time: Oct 24 09:25 +05
+"Convert.RoomName" end time: Nov 06 19:26 +05
 "Convert.RoomName" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-44/50 Testing: Convert.RoomNameWithoutHash
-44/50 Test: Convert.RoomNameWithoutHash
+38/83 Testing: Convert.RoomNameWithoutHash
+38/83 Test: Convert.RoomNameWithoutHash
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.RoomNameWithoutHash" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.RoomNameWithoutHash" start time: Oct 24 09:25 +05
+"Convert.RoomNameWithoutHash" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1181,18 +1019,18 @@ Note: Google Test filter = Convert.RoomNameWithoutHash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.RoomNameWithoutHash" end time: Oct 24 09:25 +05
+"Convert.RoomNameWithoutHash" end time: Nov 06 19:26 +05
 "Convert.RoomNameWithoutHash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-45/50 Testing: Convert.InvalidNumber
-45/50 Test: Convert.InvalidNumber
+39/83 Testing: Convert.InvalidNumber
+39/83 Test: Convert.InvalidNumber
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.InvalidNumber" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.InvalidNumber" start time: Oct 24 09:25 +05
+"Convert.InvalidNumber" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1211,15 +1049,15 @@ Note: Google Test filter = Convert.InvalidNumber
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.InvalidNumber" end time: Oct 24 09:25 +05
+"Convert.InvalidNumber" end time: Nov 06 19:26 +05
 "Convert.InvalidNumber" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-46/50 Testing: CommandRegistry.RegisterAndExecute
-46/50 Test: CommandRegistry.RegisterAndExecute
+40/83 Testing: CommandRegistry.RegisterAndExecute
+40/83 Test: CommandRegistry.RegisterAndExecute
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.RegisterAndExecute" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.RegisterAndExecute" start time: Oct 24 09:25 +05
+"CommandRegistry.RegisterAndExecute" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1235,18 +1073,18 @@ Note: Google Test filter = CommandRegistry.RegisterAndExecute
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.RegisterAndExecute" end time: Oct 24 09:25 +05
+"CommandRegistry.RegisterAndExecute" end time: Nov 06 19:26 +05
 "CommandRegistry.RegisterAndExecute" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-47/50 Testing: CommandRegistry.WrongArity
-47/50 Test: CommandRegistry.WrongArity
+41/83 Testing: CommandRegistry.WrongArity
+41/83 Test: CommandRegistry.WrongArity
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.WrongArity" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.WrongArity" start time: Oct 24 09:25 +05
+"CommandRegistry.WrongArity" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1265,15 +1103,15 @@ Note: Google Test filter = CommandRegistry.WrongArity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.WrongArity" end time: Oct 24 09:25 +05
+"CommandRegistry.WrongArity" end time: Nov 06 19:26 +05
 "CommandRegistry.WrongArity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-48/50 Testing: CommandRegistry.UnknownCommand
-48/50 Test: CommandRegistry.UnknownCommand
+42/83 Testing: CommandRegistry.UnknownCommand
+42/83 Test: CommandRegistry.UnknownCommand
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.UnknownCommand" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.UnknownCommand" start time: Oct 24 09:25 +05
+"CommandRegistry.UnknownCommand" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1289,18 +1127,18 @@ Note: Google Test filter = CommandRegistry.UnknownCommand
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.UnknownCommand" end time: Oct 24 09:25 +05
+"CommandRegistry.UnknownCommand" end time: Nov 06 19:26 +05
 "CommandRegistry.UnknownCommand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-49/50 Testing: CommandRegistry.MultipleArguments
-49/50 Test: CommandRegistry.MultipleArguments
+43/83 Testing: CommandRegistry.MultipleArguments
+43/83 Test: CommandRegistry.MultipleArguments
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.MultipleArguments" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.MultipleArguments" start time: Oct 24 09:25 +05
+"CommandRegistry.MultipleArguments" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1319,19 +1157,1072 @@ Note: Google Test filter = CommandRegistry.MultipleArguments
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.MultipleArguments" end time: Oct 24 09:25 +05
+"CommandRegistry.MultipleArguments" end time: Nov 06 19:26 +05
 "CommandRegistry.MultipleArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-50/50 Testing: compile_fail_test
-50/50 Test: compile_fail_test
-Command: "/usr/bin/cmake" "--build" "/home/apal/Рабочий стол/Learning_cpp/build" "--target" "chat_compile_fail_test"
+44/83 Testing: RingBuffer.EmptyOnConstruction
+44/83 Test: RingBuffer.EmptyOnConstruction
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"compile_fail_test" start time: Oct 24 09:25 +05
+"RingBuffer.EmptyOnConstruction" start time: Nov 06 19:26 +05
 Output:
 ----------------------------------------------------------
-[ 75%] Built target chat_core
-[ 87%] Building CXX object CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.EmptyOnConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.EmptyOnConstruction
+[       OK ] RingBuffer.EmptyOnConstruction (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.EmptyOnConstruction" end time: Nov 06 19:26 +05
+"RingBuffer.EmptyOnConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/83 Testing: RingBuffer.PushBackIncreasesSize
+45/83 Test: RingBuffer.PushBackIncreasesSize
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.PushBackIncreasesSize" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"RingBuffer.PushBackIncreasesSize" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.PushBackIncreasesSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.PushBackIncreasesSize
+[       OK ] RingBuffer.PushBackIncreasesSize (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.PushBackIncreasesSize" end time: Nov 06 19:26 +05
+"RingBuffer.PushBackIncreasesSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/83 Testing: RingBuffer.EvictsOldestOnOverflow
+46/83 Test: RingBuffer.EvictsOldestOnOverflow
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.EvictsOldestOnOverflow" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"RingBuffer.EvictsOldestOnOverflow" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.EvictsOldestOnOverflow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.EvictsOldestOnOverflow
+[       OK ] RingBuffer.EvictsOldestOnOverflow (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.EvictsOldestOnOverflow" end time: Nov 06 19:26 +05
+"RingBuffer.EvictsOldestOnOverflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/83 Testing: RingBuffer.WraparoundWorks
+47/83 Test: RingBuffer.WraparoundWorks
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.WraparoundWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"RingBuffer.WraparoundWorks" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.WraparoundWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.WraparoundWorks
+[       OK ] RingBuffer.WraparoundWorks (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.WraparoundWorks" end time: Nov 06 19:26 +05
+"RingBuffer.WraparoundWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/83 Testing: RingBuffer.AtThrowsOnOutOfRange
+48/83 Test: RingBuffer.AtThrowsOnOutOfRange
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.AtThrowsOnOutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"RingBuffer.AtThrowsOnOutOfRange" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.AtThrowsOnOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.AtThrowsOnOutOfRange
+[       OK ] RingBuffer.AtThrowsOnOutOfRange (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.AtThrowsOnOutOfRange" end time: Nov 06 19:26 +05
+"RingBuffer.AtThrowsOnOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/83 Testing: RingBuffer.ClearResetsState
+49/83 Test: RingBuffer.ClearResetsState
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.ClearResetsState" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"RingBuffer.ClearResetsState" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = RingBuffer.ClearResetsState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBuffer
+[ RUN      ] RingBuffer.ClearResetsState
+[       OK ] RingBuffer.ClearResetsState (0 ms)
+[----------] 1 test from RingBuffer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RingBuffer.ClearResetsState" end time: Nov 06 19:26 +05
+"RingBuffer.ClearResetsState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/83 Testing: HistoryIterator.EmptyRange
+50/83 Test: HistoryIterator.EmptyRange
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.EmptyRange" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HistoryIterator.EmptyRange" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HistoryIterator.EmptyRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HistoryIterator
+[ RUN      ] HistoryIterator.EmptyRange
+[       OK ] HistoryIterator.EmptyRange (0 ms)
+[----------] 1 test from HistoryIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HistoryIterator.EmptyRange" end time: Nov 06 19:26 +05
+"HistoryIterator.EmptyRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/83 Testing: HistoryIterator.IterateOverFullBuffer
+51/83 Test: HistoryIterator.IterateOverFullBuffer
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.IterateOverFullBuffer" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HistoryIterator.IterateOverFullBuffer" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HistoryIterator.IterateOverFullBuffer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HistoryIterator
+[ RUN      ] HistoryIterator.IterateOverFullBuffer
+[       OK ] HistoryIterator.IterateOverFullBuffer (0 ms)
+[----------] 1 test from HistoryIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HistoryIterator.IterateOverFullBuffer" end time: Nov 06 19:26 +05
+"HistoryIterator.IterateOverFullBuffer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/83 Testing: HistoryIterator.IterateAfterEviction
+52/83 Test: HistoryIterator.IterateAfterEviction
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.IterateAfterEviction" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HistoryIterator.IterateAfterEviction" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HistoryIterator.IterateAfterEviction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HistoryIterator
+[ RUN      ] HistoryIterator.IterateAfterEviction
+[       OK ] HistoryIterator.IterateAfterEviction (0 ms)
+[----------] 1 test from HistoryIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HistoryIterator.IterateAfterEviction" end time: Nov 06 19:26 +05
+"HistoryIterator.IterateAfterEviction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/83 Testing: HistoryIterator.WorksWithSTLAlgorithms
+53/83 Test: HistoryIterator.WorksWithSTLAlgorithms
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.WorksWithSTLAlgorithms" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HistoryIterator.WorksWithSTLAlgorithms" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HistoryIterator.WorksWithSTLAlgorithms
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HistoryIterator
+[ RUN      ] HistoryIterator.WorksWithSTLAlgorithms
+[       OK ] HistoryIterator.WorksWithSTLAlgorithms (0 ms)
+[----------] 1 test from HistoryIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HistoryIterator.WorksWithSTLAlgorithms" end time: Nov 06 19:26 +05
+"HistoryIterator.WorksWithSTLAlgorithms" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/83 Testing: HistoryIterator.ConstIterator
+54/83 Test: HistoryIterator.ConstIterator
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.ConstIterator" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HistoryIterator.ConstIterator" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HistoryIterator.ConstIterator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HistoryIterator
+[ RUN      ] HistoryIterator.ConstIterator
+[       OK ] HistoryIterator.ConstIterator (0 ms)
+[----------] 1 test from HistoryIterator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HistoryIterator.ConstIterator" end time: Nov 06 19:26 +05
+"HistoryIterator.ConstIterator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/83 Testing: Invalidation.EraseDuringIterationIsDangerous
+55/83 Test: Invalidation.EraseDuringIterationIsDangerous
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.EraseDuringIterationIsDangerous" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Invalidation.EraseDuringIterationIsDangerous" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Invalidation.EraseDuringIterationIsDangerous
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Invalidation
+[ RUN      ] Invalidation.EraseDuringIterationIsDangerous
+[       OK ] Invalidation.EraseDuringIterationIsDangerous (0 ms)
+[----------] 1 test from Invalidation (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Invalidation.EraseDuringIterationIsDangerous" end time: Nov 06 19:26 +05
+"Invalidation.EraseDuringIterationIsDangerous" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/83 Testing: Invalidation.RingBufferInvalidationOnPushBack
+56/83 Test: Invalidation.RingBufferInvalidationOnPushBack
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.RingBufferInvalidationOnPushBack" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Invalidation.RingBufferInvalidationOnPushBack" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Invalidation.RingBufferInvalidationOnPushBack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Invalidation
+[ RUN      ] Invalidation.RingBufferInvalidationOnPushBack
+[       OK ] Invalidation.RingBufferInvalidationOnPushBack (0 ms)
+[----------] 1 test from Invalidation (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Invalidation.RingBufferInvalidationOnPushBack" end time: Nov 06 19:26 +05
+"Invalidation.RingBufferInvalidationOnPushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/83 Testing: Invalidation.MapIteratorInvalidationOnErase
+57/83 Test: Invalidation.MapIteratorInvalidationOnErase
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.MapIteratorInvalidationOnErase" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Invalidation.MapIteratorInvalidationOnErase" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Invalidation.MapIteratorInvalidationOnErase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Invalidation
+[ RUN      ] Invalidation.MapIteratorInvalidationOnErase
+[       OK ] Invalidation.MapIteratorInvalidationOnErase (0 ms)
+[----------] 1 test from Invalidation (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Invalidation.MapIteratorInvalidationOnErase" end time: Nov 06 19:26 +05
+"Invalidation.MapIteratorInvalidationOnErase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/83 Testing: HashTable.EmptyOnConstruction
+58/83 Test: HashTable.EmptyOnConstruction
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.EmptyOnConstruction" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.EmptyOnConstruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.EmptyOnConstruction
+[       OK ] HashTable.EmptyOnConstruction (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.EmptyOnConstruction" end time: Nov 06 19:26 +05
+"HashTable.EmptyOnConstruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/83 Testing: HashTable.TryEmplaceInserts
+59/83 Test: HashTable.TryEmplaceInserts
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.TryEmplaceInserts" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.TryEmplaceInserts" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.TryEmplaceInserts
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.TryEmplaceInserts
+[       OK ] HashTable.TryEmplaceInserts (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.TryEmplaceInserts" end time: Nov 06 19:26 +05
+"HashTable.TryEmplaceInserts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/83 Testing: HashTable.TryEmplaceDoesNotDuplicate
+60/83 Test: HashTable.TryEmplaceDoesNotDuplicate
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.TryEmplaceDoesNotDuplicate" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.TryEmplaceDoesNotDuplicate" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.TryEmplaceDoesNotDuplicate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.TryEmplaceDoesNotDuplicate
+[       OK ] HashTable.TryEmplaceDoesNotDuplicate (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.TryEmplaceDoesNotDuplicate" end time: Nov 06 19:26 +05
+"HashTable.TryEmplaceDoesNotDuplicate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/83 Testing: HashTable.FindReturnsPointer
+61/83 Test: HashTable.FindReturnsPointer
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.FindReturnsPointer" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.FindReturnsPointer" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.FindReturnsPointer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.FindReturnsPointer
+[       OK ] HashTable.FindReturnsPointer (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.FindReturnsPointer" end time: Nov 06 19:26 +05
+"HashTable.FindReturnsPointer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/83 Testing: HashTable.EraseRemovesElement
+62/83 Test: HashTable.EraseRemovesElement
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.EraseRemovesElement" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.EraseRemovesElement" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.EraseRemovesElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.EraseRemovesElement
+[       OK ] HashTable.EraseRemovesElement (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.EraseRemovesElement" end time: Nov 06 19:26 +05
+"HashTable.EraseRemovesElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/83 Testing: HashTable.RehashOnLoadFactor
+63/83 Test: HashTable.RehashOnLoadFactor
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.RehashOnLoadFactor" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.RehashOnLoadFactor" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.RehashOnLoadFactor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.RehashOnLoadFactor
+[       OK ] HashTable.RehashOnLoadFactor (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.RehashOnLoadFactor" end time: Nov 06 19:26 +05
+"HashTable.RehashOnLoadFactor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/83 Testing: HashTable.ForEachKey
+64/83 Test: HashTable.ForEachKey
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HashTable.ForEachKey" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"HashTable.ForEachKey" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.ForEachKey
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.ForEachKey
+[       OK ] HashTable.ForEachKey (0 ms)
+[----------] 1 test from HashTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.ForEachKey" end time: Nov 06 19:26 +05
+"HashTable.ForEachKey" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/83 Testing: Fnv1a.DifferentStringsDifferentHashes
+65/83 Test: Fnv1a.DifferentStringsDifferentHashes
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Fnv1a.DifferentStringsDifferentHashes" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Fnv1a.DifferentStringsDifferentHashes" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Fnv1a.DifferentStringsDifferentHashes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fnv1a
+[ RUN      ] Fnv1a.DifferentStringsDifferentHashes
+[       OK ] Fnv1a.DifferentStringsDifferentHashes (0 ms)
+[----------] 1 test from Fnv1a (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fnv1a.DifferentStringsDifferentHashes" end time: Nov 06 19:26 +05
+"Fnv1a.DifferentStringsDifferentHashes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/83 Testing: Fnv1a.EmptyString
+66/83 Test: Fnv1a.EmptyString
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Fnv1a.EmptyString" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Fnv1a.EmptyString" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Fnv1a.EmptyString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Fnv1a
+[ RUN      ] Fnv1a.EmptyString
+[       OK ] Fnv1a.EmptyString (0 ms)
+[----------] 1 test from Fnv1a (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Fnv1a.EmptyString" end time: Nov 06 19:26 +05
+"Fnv1a.EmptyString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/83 Testing: BadHash.AnagramsCollide
+67/83 Test: BadHash.AnagramsCollide
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=BadHash.AnagramsCollide" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"BadHash.AnagramsCollide" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = BadHash.AnagramsCollide
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BadHash
+[ RUN      ] BadHash.AnagramsCollide
+[       OK ] BadHash.AnagramsCollide (0 ms)
+[----------] 1 test from BadHash (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BadHash.AnagramsCollide" end time: Nov 06 19:26 +05
+"BadHash.AnagramsCollide" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/83 Testing: BadHash.SameLengthCollisions
+68/83 Test: BadHash.SameLengthCollisions
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=BadHash.SameLengthCollisions" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"BadHash.SameLengthCollisions" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = BadHash.SameLengthCollisions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BadHash
+[ RUN      ] BadHash.SameLengthCollisions
+[       OK ] BadHash.SameLengthCollisions (0 ms)
+[----------] 1 test from BadHash (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BadHash.SameLengthCollisions" end time: Nov 06 19:26 +05
+"BadHash.SameLengthCollisions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/83 Testing: Engines/ChatStoreTest.CreateRoomIncreasesCount/"std"
+69/83 Test: Engines/ChatStoreTest.CreateRoomIncreasesCount/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.CreateRoomIncreasesCount/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.CreateRoomIncreasesCount/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.CreateRoomIncreasesCount/std
+[       OK ] Engines/ChatStoreTest.CreateRoomIncreasesCount/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/83 Testing: Engines/ChatStoreTest.CreateRoomIncreasesCount/"hash"
+70/83 Test: Engines/ChatStoreTest.CreateRoomIncreasesCount/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.CreateRoomIncreasesCount/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.CreateRoomIncreasesCount/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.CreateRoomIncreasesCount/hash
+[       OK ] Engines/ChatStoreTest.CreateRoomIncreasesCount/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.CreateRoomIncreasesCount/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/83 Testing: Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"std"
+71/83 Test: Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/std
+[       OK ] Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/83 Testing: Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"hash"
+72/83 Test: Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/hash
+[       OK ] Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RoomReturnsNullptrForUnknown/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/83 Testing: Engines/ChatStoreTest.RoomReturnsPointerForKnown/"std"
+73/83 Test: Engines/ChatStoreTest.RoomReturnsPointerForKnown/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RoomReturnsPointerForKnown/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RoomReturnsPointerForKnown/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RoomReturnsPointerForKnown/std
+[       OK ] Engines/ChatStoreTest.RoomReturnsPointerForKnown/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/83 Testing: Engines/ChatStoreTest.RoomReturnsPointerForKnown/"hash"
+74/83 Test: Engines/ChatStoreTest.RoomReturnsPointerForKnown/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RoomReturnsPointerForKnown/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RoomReturnsPointerForKnown/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RoomReturnsPointerForKnown/hash
+[       OK ] Engines/ChatStoreTest.RoomReturnsPointerForKnown/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RoomReturnsPointerForKnown/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/83 Testing: Engines/ChatStoreTest.AddMessageToRoom/"std"
+75/83 Test: Engines/ChatStoreTest.AddMessageToRoom/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.AddMessageToRoom/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.AddMessageToRoom/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.AddMessageToRoom/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.AddMessageToRoom/std
+[       OK ] Engines/ChatStoreTest.AddMessageToRoom/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.AddMessageToRoom/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.AddMessageToRoom/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/83 Testing: Engines/ChatStoreTest.AddMessageToRoom/"hash"
+76/83 Test: Engines/ChatStoreTest.AddMessageToRoom/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.AddMessageToRoom/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.AddMessageToRoom/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.AddMessageToRoom/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.AddMessageToRoom/hash
+[       OK ] Engines/ChatStoreTest.AddMessageToRoom/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.AddMessageToRoom/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.AddMessageToRoom/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/83 Testing: Engines/ChatStoreTest.CreateUserAndFind/"std"
+77/83 Test: Engines/ChatStoreTest.CreateUserAndFind/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.CreateUserAndFind/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.CreateUserAndFind/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.CreateUserAndFind/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.CreateUserAndFind/std
+[       OK ] Engines/ChatStoreTest.CreateUserAndFind/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.CreateUserAndFind/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.CreateUserAndFind/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/83 Testing: Engines/ChatStoreTest.CreateUserAndFind/"hash"
+78/83 Test: Engines/ChatStoreTest.CreateUserAndFind/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.CreateUserAndFind/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.CreateUserAndFind/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.CreateUserAndFind/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.CreateUserAndFind/hash
+[       OK ] Engines/ChatStoreTest.CreateUserAndFind/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.CreateUserAndFind/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.CreateUserAndFind/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/83 Testing: Engines/ChatStoreTest.RemoveUser/"std"
+79/83 Test: Engines/ChatStoreTest.RemoveUser/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RemoveUser/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RemoveUser/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RemoveUser/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RemoveUser/std
+[       OK ] Engines/ChatStoreTest.RemoveUser/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RemoveUser/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RemoveUser/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/83 Testing: Engines/ChatStoreTest.RemoveUser/"hash"
+80/83 Test: Engines/ChatStoreTest.RemoveUser/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.RemoveUser/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.RemoveUser/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.RemoveUser/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.RemoveUser/hash
+[       OK ] Engines/ChatStoreTest.RemoveUser/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.RemoveUser/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.RemoveUser/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/83 Testing: Engines/ChatStoreTest.ForEachRoomName/"std"
+81/83 Test: Engines/ChatStoreTest.ForEachRoomName/"std"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.ForEachRoomName/std" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.ForEachRoomName/"std"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.ForEachRoomName/std
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.ForEachRoomName/std
+[       OK ] Engines/ChatStoreTest.ForEachRoomName/std (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.ForEachRoomName/"std"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.ForEachRoomName/"std"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/83 Testing: Engines/ChatStoreTest.ForEachRoomName/"hash"
+82/83 Test: Engines/ChatStoreTest.ForEachRoomName/"hash"
+Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Engines/ChatStoreTest.ForEachRoomName/hash" "--gtest_also_run_disabled_tests"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"Engines/ChatStoreTest.ForEachRoomName/"hash"" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = Engines/ChatStoreTest.ForEachRoomName/hash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engines/ChatStoreTest
+[ RUN      ] Engines/ChatStoreTest.ForEachRoomName/hash
+[       OK ] Engines/ChatStoreTest.ForEachRoomName/hash (0 ms)
+[----------] 1 test from Engines/ChatStoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Engines/ChatStoreTest.ForEachRoomName/"hash"" end time: Nov 06 19:26 +05
+"Engines/ChatStoreTest.ForEachRoomName/"hash"" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/83 Testing: compile_fail_test
+83/83 Test: compile_fail_test
+Command: "/usr/bin/cmake" "--build" "/home/apal/Рабочий стол/Learning_cpp/build" "--target" "chat_compile_fail_test"
+Directory: /home/apal/Рабочий стол/Learning_cpp/build
+"compile_fail_test" start time: Nov 06 19:26 +05
+Output:
+----------------------------------------------------------
+[ 77%] Built target chat_core
+[ 88%] Building CXX object CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o
 /home/apal/Рабочий стол/Learning_cpp/tests/test_compile_fail.cpp: In lambda function:
 /home/apal/Рабочий стол/Learning_cpp/tests/test_compile_fail.cpp:9:59: warning: unused parameter ‘v’ [-Wunused-parameter]
     9 |     registry.register_command("/bad", [](std::vector<int> v) -> std::string {
@@ -1361,11 +2252,11 @@ gmake[2]: *** [CMakeFiles/Makefile2:190: CMakeFiles/chat_compile_fail_test.dir/a
 gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/chat_compile_fail_test.dir/rule] Ошибка 2
 gmake: *** [Makefile:180: chat_compile_fail_test] Ошибка 2
 <end of output>
-Test time =   0.52 sec
+Test time =   0.66 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_fail_test" end time: Oct 24 09:25 +05
+"compile_fail_test" end time: Nov 06 19:26 +05
 "compile_fail_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 24 09:25 +05
+End testing: Nov 06 19:26 +05
