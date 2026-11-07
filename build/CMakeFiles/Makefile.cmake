@@ -135,4 +135,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/chat_cli.dir/DependInfo.cmake"
   "CMakeFiles/chat_tests.dir/DependInfo.cmake"
   "CMakeFiles/chat_compile_fail_test.dir/DependInfo.cmake"
+  "CMakeFiles/bench_history.dir/DependInfo.cmake"
+  "CMakeFiles/bench_map.dir/DependInfo.cmake"
+  "CMakeFiles/bench_emplace.dir/DependInfo.cmake"
   )

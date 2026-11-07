@@ -72,4 +72,14 @@ add_test(
     NAME compile_fail_test
     COMMAND ${CMAKE_COMMAND} --build ${CMAKE_BINARY_DIR} --target chat_compile_fail_test
 )
+
+add_executable(bench_history benchmarks/bench_history.cpp)
+target_link_libraries(bench_history PRIVATE chat_core)
+
+add_executable(bench_map benchmarks/bench_map.cpp)
+target_link_libraries(bench_map PRIVATE chat_core)
+
+add_executable(bench_emplace benchmarks/bench_emplace.cpp)
+target_link_libraries(bench_emplace PRIVATE chat_core)
+
 set_tests_properties(compile_fail_test PROPERTIES WILL_FAIL TRUE)

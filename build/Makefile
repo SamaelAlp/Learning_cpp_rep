@@ -185,6 +185,117 @@ chat_compile_fail_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_compile_fail_test.dir/build.make CMakeFiles/chat_compile_fail_test.dir/build
 .PHONY : chat_compile_fail_test/fast
 
+#=============================================================================
+# Target rules for targets named bench_history
+
+# Build rule for target.
+bench_history: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bench_history
+.PHONY : bench_history
+
+# fast build rule for target.
+bench_history/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_history.dir/build.make CMakeFiles/bench_history.dir/build
+.PHONY : bench_history/fast
+
+#=============================================================================
+# Target rules for targets named bench_map
+
+# Build rule for target.
+bench_map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bench_map
+.PHONY : bench_map
+
+# fast build rule for target.
+bench_map/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_map.dir/build.make CMakeFiles/bench_map.dir/build
+.PHONY : bench_map/fast
+
+#=============================================================================
+# Target rules for targets named bench_emplace
+
+# Build rule for target.
+bench_emplace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bench_emplace
+.PHONY : bench_emplace
+
+# fast build rule for target.
+bench_emplace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_emplace.dir/build.make CMakeFiles/bench_emplace.dir/build
+.PHONY : bench_emplace/fast
+
+benchmarks/bench_emplace.o: benchmarks/bench_emplace.cpp.o
+.PHONY : benchmarks/bench_emplace.o
+
+# target to build an object file
+benchmarks/bench_emplace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_emplace.dir/build.make CMakeFiles/bench_emplace.dir/benchmarks/bench_emplace.cpp.o
+.PHONY : benchmarks/bench_emplace.cpp.o
+
+benchmarks/bench_emplace.i: benchmarks/bench_emplace.cpp.i
+.PHONY : benchmarks/bench_emplace.i
+
+# target to preprocess a source file
+benchmarks/bench_emplace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_emplace.dir/build.make CMakeFiles/bench_emplace.dir/benchmarks/bench_emplace.cpp.i
+.PHONY : benchmarks/bench_emplace.cpp.i
+
+benchmarks/bench_emplace.s: benchmarks/bench_emplace.cpp.s
+.PHONY : benchmarks/bench_emplace.s
+
+# target to generate assembly for a file
+benchmarks/bench_emplace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_emplace.dir/build.make CMakeFiles/bench_emplace.dir/benchmarks/bench_emplace.cpp.s
+.PHONY : benchmarks/bench_emplace.cpp.s
+
+benchmarks/bench_history.o: benchmarks/bench_history.cpp.o
+.PHONY : benchmarks/bench_history.o
+
+# target to build an object file
+benchmarks/bench_history.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_history.dir/build.make CMakeFiles/bench_history.dir/benchmarks/bench_history.cpp.o
+.PHONY : benchmarks/bench_history.cpp.o
+
+benchmarks/bench_history.i: benchmarks/bench_history.cpp.i
+.PHONY : benchmarks/bench_history.i
+
+# target to preprocess a source file
+benchmarks/bench_history.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_history.dir/build.make CMakeFiles/bench_history.dir/benchmarks/bench_history.cpp.i
+.PHONY : benchmarks/bench_history.cpp.i
+
+benchmarks/bench_history.s: benchmarks/bench_history.cpp.s
+.PHONY : benchmarks/bench_history.s
+
+# target to generate assembly for a file
+benchmarks/bench_history.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_history.dir/build.make CMakeFiles/bench_history.dir/benchmarks/bench_history.cpp.s
+.PHONY : benchmarks/bench_history.cpp.s
+
+benchmarks/bench_map.o: benchmarks/bench_map.cpp.o
+.PHONY : benchmarks/bench_map.o
+
+# target to build an object file
+benchmarks/bench_map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_map.dir/build.make CMakeFiles/bench_map.dir/benchmarks/bench_map.cpp.o
+.PHONY : benchmarks/bench_map.cpp.o
+
+benchmarks/bench_map.i: benchmarks/bench_map.cpp.i
+.PHONY : benchmarks/bench_map.i
+
+# target to preprocess a source file
+benchmarks/bench_map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_map.dir/build.make CMakeFiles/bench_map.dir/benchmarks/bench_map.cpp.i
+.PHONY : benchmarks/bench_map.cpp.i
+
+benchmarks/bench_map.s: benchmarks/bench_map.cpp.s
+.PHONY : benchmarks/bench_map.s
+
+# target to generate assembly for a file
+benchmarks/bench_map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_map.dir/build.make CMakeFiles/bench_map.dir/benchmarks/bench_map.cpp.s
+.PHONY : benchmarks/bench_map.cpp.s
+
 src/chat_cli/main.o: src/chat_cli/main.cpp.o
 .PHONY : src/chat_cli/main.o
 
@@ -699,10 +810,22 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... bench_emplace"
+	@echo "... bench_history"
+	@echo "... bench_map"
 	@echo "... chat_cli"
 	@echo "... chat_compile_fail_test"
 	@echo "... chat_core"
 	@echo "... chat_tests"
+	@echo "... benchmarks/bench_emplace.o"
+	@echo "... benchmarks/bench_emplace.i"
+	@echo "... benchmarks/bench_emplace.s"
+	@echo "... benchmarks/bench_history.o"
+	@echo "... benchmarks/bench_history.i"
+	@echo "... benchmarks/bench_history.s"
+	@echo "... benchmarks/bench_map.o"
+	@echo "... benchmarks/bench_map.i"
+	@echo "... benchmarks/bench_map.s"
 	@echo "... src/chat_cli/main.o"
 	@echo "... src/chat_cli/main.i"
 	@echo "... src/chat_cli/main.s"

@@ -124,5 +124,23 @@
   "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/tests/test_compile_fail.cpp\"",
   "file": "/home/apal/Рабочий стол/Learning_cpp/tests/test_compile_fail.cpp",
   "output": "CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/bench_history.dir/benchmarks/bench_history.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_history.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_history.cpp",
+  "output": "CMakeFiles/bench_history.dir/benchmarks/bench_history.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/bench_map.dir/benchmarks/bench_map.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_map.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_map.cpp",
+  "output": "CMakeFiles/bench_map.dir/benchmarks/bench_map.cpp.o"
+},
+{
+  "directory": "/home/apal/Рабочий стол/Learning_cpp/build",
+  "command": "/usr/bin/c++  -I\"/home/apal/Рабочий стол/Learning_cpp/include\" -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -o CMakeFiles/bench_emplace.dir/benchmarks/bench_emplace.cpp.o -c \"/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_emplace.cpp\"",
+  "file": "/home/apal/Рабочий стол/Learning_cpp/benchmarks/bench_emplace.cpp",
+  "output": "CMakeFiles/bench_emplace.dir/benchmarks/bench_emplace.cpp.o"
 }
 ]

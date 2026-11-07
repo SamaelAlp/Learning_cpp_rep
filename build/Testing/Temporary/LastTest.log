@@ -1,10 +1,10 @@
-Start testing: Nov 06 18:34 +05
+Start testing: Nov 07 08:28 +05
 ----------------------------------------------------------
 1/64 Testing: Message.TextMessageCreation
 1/64 Test: Message.TextMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.TextMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.TextMessageCreation" start time: Nov 06 18:34 +05
+"Message.TextMessageCreation" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = Message.TextMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.TextMessageCreation" end time: Nov 06 18:34 +05
+"Message.TextMessageCreation" end time: Nov 07 08:28 +05
 "Message.TextMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/64 Test: Message.SystemMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.SystemMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.SystemMessageCreation" start time: Nov 06 18:34 +05
+"Message.SystemMessageCreation" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = Message.SystemMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.SystemMessageCreation" end time: Nov 06 18:34 +05
+"Message.SystemMessageCreation" end time: Nov 07 08:28 +05
 "Message.SystemMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/64 Test: Message.ReactionMessageCreation
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.ReactionMessageCreation" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.ReactionMessageCreation" start time: Nov 06 18:34 +05
+"Message.ReactionMessageCreation" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = Message.ReactionMessageCreation
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.ReactionMessageCreation" end time: Nov 06 18:34 +05
+"Message.ReactionMessageCreation" end time: Nov 07 08:28 +05
 "Message.ReactionMessageCreation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/64 Test: Message.ReactionMessageTryReact
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.ReactionMessageTryReact" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.ReactionMessageTryReact" start time: Nov 06 18:34 +05
+"Message.ReactionMessageTryReact" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = Message.ReactionMessageTryReact
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.ReactionMessageTryReact" end time: Nov 06 18:34 +05
+"Message.ReactionMessageTryReact" end time: Nov 07 08:28 +05
 "Message.ReactionMessageTryReact" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/64 Test: Message.TextMessageTryReactFails
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.TextMessageTryReactFails" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.TextMessageTryReactFails" start time: Nov 06 18:34 +05
+"Message.TextMessageTryReactFails" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = Message.TextMessageTryReactFails
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.TextMessageTryReactFails" end time: Nov 06 18:34 +05
+"Message.TextMessageTryReactFails" end time: Nov 07 08:28 +05
 "Message.TextMessageTryReactFails" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/64 Test: Message.MoveDoesNotInvokeCopy
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.MoveDoesNotInvokeCopy" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.MoveDoesNotInvokeCopy" start time: Nov 06 18:34 +05
+"Message.MoveDoesNotInvokeCopy" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = Message.MoveDoesNotInvokeCopy
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.MoveDoesNotInvokeCopy" end time: Nov 06 18:34 +05
+"Message.MoveDoesNotInvokeCopy" end time: Nov 07 08:28 +05
 "Message.MoveDoesNotInvokeCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/64 Test: Message.CopyInvokesCopyNotMove
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Message.CopyInvokesCopyNotMove" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Message.CopyInvokesCopyNotMove" start time: Nov 06 18:34 +05
+"Message.CopyInvokesCopyNotMove" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = Message.CopyInvokesCopyNotMove
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Message.CopyInvokesCopyNotMove" end time: Nov 06 18:34 +05
+"Message.CopyInvokesCopyNotMove" end time: Nov 07 08:28 +05
 "Message.CopyInvokesCopyNotMove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/64 Test: OwningBuffer.DefaultIsEmpty
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.DefaultIsEmpty" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.DefaultIsEmpty" start time: Nov 06 18:34 +05
+"OwningBuffer.DefaultIsEmpty" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -212,7 +212,7 @@ Note: Google Test filter = OwningBuffer.DefaultIsEmpty
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.DefaultIsEmpty" end time: Nov 06 18:34 +05
+"OwningBuffer.DefaultIsEmpty" end time: Nov 07 08:28 +05
 "OwningBuffer.DefaultIsEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/64 Test: OwningBuffer.ConstructWithSize
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.ConstructWithSize" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.ConstructWithSize" start time: Nov 06 18:34 +05
+"OwningBuffer.ConstructWithSize" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -239,7 +239,7 @@ Note: Google Test filter = OwningBuffer.ConstructWithSize
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.ConstructWithSize" end time: Nov 06 18:34 +05
+"OwningBuffer.ConstructWithSize" end time: Nov 07 08:28 +05
 "OwningBuffer.ConstructWithSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/64 Test: OwningBuffer.CopyProducesIndependentMemory
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.CopyProducesIndependentMemory" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.CopyProducesIndependentMemory" start time: Nov 06 18:34 +05
+"OwningBuffer.CopyProducesIndependentMemory" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -266,7 +266,7 @@ Note: Google Test filter = OwningBuffer.CopyProducesIndependentMemory
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.CopyProducesIndependentMemory" end time: Nov 06 18:34 +05
+"OwningBuffer.CopyProducesIndependentMemory" end time: Nov 07 08:28 +05
 "OwningBuffer.CopyProducesIndependentMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/64 Test: OwningBuffer.CopyAssignmentProducesIndependentMemory
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.CopyAssignmentProducesIndependentMemory" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.CopyAssignmentProducesIndependentMemory" start time: Nov 06 18:34 +05
+"OwningBuffer.CopyAssignmentProducesIndependentMemory" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -293,7 +293,7 @@ Note: Google Test filter = OwningBuffer.CopyAssignmentProducesIndependentMemory
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.CopyAssignmentProducesIndependentMemory" end time: Nov 06 18:34 +05
+"OwningBuffer.CopyAssignmentProducesIndependentMemory" end time: Nov 07 08:28 +05
 "OwningBuffer.CopyAssignmentProducesIndependentMemory" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/64 Test: OwningBuffer.MoveLeavesSourceInValidState
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.MoveLeavesSourceInValidState" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.MoveLeavesSourceInValidState" start time: Nov 06 18:34 +05
+"OwningBuffer.MoveLeavesSourceInValidState" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -320,7 +320,7 @@ Note: Google Test filter = OwningBuffer.MoveLeavesSourceInValidState
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.MoveLeavesSourceInValidState" end time: Nov 06 18:34 +05
+"OwningBuffer.MoveLeavesSourceInValidState" end time: Nov 07 08:28 +05
 "OwningBuffer.MoveLeavesSourceInValidState" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/64 Test: OwningBuffer.MoveAssignment
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.MoveAssignment" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.MoveAssignment" start time: Nov 06 18:34 +05
+"OwningBuffer.MoveAssignment" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -347,7 +347,7 @@ Note: Google Test filter = OwningBuffer.MoveAssignment
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.MoveAssignment" end time: Nov 06 18:34 +05
+"OwningBuffer.MoveAssignment" end time: Nov 07 08:28 +05
 "OwningBuffer.MoveAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/64 Test: OwningBuffer.SelfAssignmentDoesNotBreakObject
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.SelfAssignmentDoesNotBreakObject" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.SelfAssignmentDoesNotBreakObject" start time: Nov 06 18:34 +05
+"OwningBuffer.SelfAssignmentDoesNotBreakObject" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -374,7 +374,7 @@ Note: Google Test filter = OwningBuffer.SelfAssignmentDoesNotBreakObject
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.SelfAssignmentDoesNotBreakObject" end time: Nov 06 18:34 +05
+"OwningBuffer.SelfAssignmentDoesNotBreakObject" end time: Nov 07 08:28 +05
 "OwningBuffer.SelfAssignmentDoesNotBreakObject" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/64 Test: OwningBuffer.SwapWorks
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=OwningBuffer.SwapWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"OwningBuffer.SwapWorks" start time: Nov 06 18:34 +05
+"OwningBuffer.SwapWorks" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -401,7 +401,7 @@ Note: Google Test filter = OwningBuffer.SwapWorks
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OwningBuffer.SwapWorks" end time: Nov 06 18:34 +05
+"OwningBuffer.SwapWorks" end time: Nov 07 08:28 +05
 "OwningBuffer.SwapWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 16/64 Test: ChatStore.CreateRoomIncreasesCount
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.CreateRoomIncreasesCount" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.CreateRoomIncreasesCount" start time: Nov 06 18:34 +05
+"ChatStore.CreateRoomIncreasesCount" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -428,7 +428,7 @@ Note: Google Test filter = ChatStore.CreateRoomIncreasesCount
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.CreateRoomIncreasesCount" end time: Nov 06 18:34 +05
+"ChatStore.CreateRoomIncreasesCount" end time: Nov 07 08:28 +05
 "ChatStore.CreateRoomIncreasesCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -436,7 +436,7 @@ Test Passed.
 17/64 Test: ChatStore.RoomReturnsNullptrForUnknown
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RoomReturnsNullptrForUnknown" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RoomReturnsNullptrForUnknown" start time: Nov 06 18:34 +05
+"ChatStore.RoomReturnsNullptrForUnknown" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -455,7 +455,7 @@ Note: Google Test filter = ChatStore.RoomReturnsNullptrForUnknown
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.RoomReturnsNullptrForUnknown" end time: Nov 06 18:34 +05
+"ChatStore.RoomReturnsNullptrForUnknown" end time: Nov 07 08:28 +05
 "ChatStore.RoomReturnsNullptrForUnknown" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -463,7 +463,7 @@ Test Passed.
 18/64 Test: ChatStore.RoomReturnsPointerForKnown
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RoomReturnsPointerForKnown" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RoomReturnsPointerForKnown" start time: Nov 06 18:34 +05
+"ChatStore.RoomReturnsPointerForKnown" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -482,7 +482,7 @@ Note: Google Test filter = ChatStore.RoomReturnsPointerForKnown
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.RoomReturnsPointerForKnown" end time: Nov 06 18:34 +05
+"ChatStore.RoomReturnsPointerForKnown" end time: Nov 07 08:28 +05
 "ChatStore.RoomReturnsPointerForKnown" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -490,7 +490,7 @@ Test Passed.
 19/64 Test: ChatStore.AddMessageToRoom
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.AddMessageToRoom" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.AddMessageToRoom" start time: Nov 06 18:34 +05
+"ChatStore.AddMessageToRoom" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -509,7 +509,7 @@ Note: Google Test filter = ChatStore.AddMessageToRoom
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.AddMessageToRoom" end time: Nov 06 18:34 +05
+"ChatStore.AddMessageToRoom" end time: Nov 07 08:28 +05
 "ChatStore.AddMessageToRoom" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -517,7 +517,7 @@ Test Passed.
 20/64 Test: ChatStore.CreateUserAndFind
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.CreateUserAndFind" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.CreateUserAndFind" start time: Nov 06 18:34 +05
+"ChatStore.CreateUserAndFind" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -536,7 +536,7 @@ Note: Google Test filter = ChatStore.CreateUserAndFind
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.CreateUserAndFind" end time: Nov 06 18:34 +05
+"ChatStore.CreateUserAndFind" end time: Nov 07 08:28 +05
 "ChatStore.CreateUserAndFind" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 21/64 Test: ChatStore.RemoveUser
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=ChatStore.RemoveUser" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"ChatStore.RemoveUser" start time: Nov 06 18:34 +05
+"ChatStore.RemoveUser" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -563,7 +563,7 @@ Note: Google Test filter = ChatStore.RemoveUser
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChatStore.RemoveUser" end time: Nov 06 18:34 +05
+"ChatStore.RemoveUser" end time: Nov 07 08:28 +05
 "ChatStore.RemoveUser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -571,7 +571,7 @@ Test Passed.
 22/64 Test: Lexer.EmptyInput
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.EmptyInput" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.EmptyInput" start time: Nov 06 18:34 +05
+"Lexer.EmptyInput" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -590,7 +590,7 @@ Note: Google Test filter = Lexer.EmptyInput
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.EmptyInput" end time: Nov 06 18:34 +05
+"Lexer.EmptyInput" end time: Nov 07 08:28 +05
 "Lexer.EmptyInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -598,7 +598,7 @@ Test Passed.
 23/64 Test: Lexer.SingleToken
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.SingleToken" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.SingleToken" start time: Nov 06 18:34 +05
+"Lexer.SingleToken" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -617,7 +617,7 @@ Note: Google Test filter = Lexer.SingleToken
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.SingleToken" end time: Nov 06 18:34 +05
+"Lexer.SingleToken" end time: Nov 07 08:28 +05
 "Lexer.SingleToken" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -625,7 +625,7 @@ Test Passed.
 24/64 Test: Lexer.MultipleTokens
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.MultipleTokens" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.MultipleTokens" start time: Nov 06 18:34 +05
+"Lexer.MultipleTokens" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -644,7 +644,7 @@ Note: Google Test filter = Lexer.MultipleTokens
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.MultipleTokens" end time: Nov 06 18:34 +05
+"Lexer.MultipleTokens" end time: Nov 07 08:28 +05
 "Lexer.MultipleTokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -652,7 +652,7 @@ Test Passed.
 25/64 Test: Lexer.ExtraSpaces
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.ExtraSpaces" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.ExtraSpaces" start time: Nov 06 18:34 +05
+"Lexer.ExtraSpaces" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -671,7 +671,7 @@ Note: Google Test filter = Lexer.ExtraSpaces
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.ExtraSpaces" end time: Nov 06 18:34 +05
+"Lexer.ExtraSpaces" end time: Nov 07 08:28 +05
 "Lexer.ExtraSpaces" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -679,7 +679,7 @@ Test Passed.
 26/64 Test: Lexer.QuotedString
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.QuotedString" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.QuotedString" start time: Nov 06 18:34 +05
+"Lexer.QuotedString" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -698,7 +698,7 @@ Note: Google Test filter = Lexer.QuotedString
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.QuotedString" end time: Nov 06 18:34 +05
+"Lexer.QuotedString" end time: Nov 07 08:28 +05
 "Lexer.QuotedString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -706,7 +706,7 @@ Test Passed.
 27/64 Test: Lexer.QuotedStringWithSpaces
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.QuotedStringWithSpaces" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.QuotedStringWithSpaces" start time: Nov 06 18:34 +05
+"Lexer.QuotedStringWithSpaces" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -725,7 +725,7 @@ Note: Google Test filter = Lexer.QuotedStringWithSpaces
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.QuotedStringWithSpaces" end time: Nov 06 18:34 +05
+"Lexer.QuotedStringWithSpaces" end time: Nov 07 08:28 +05
 "Lexer.QuotedStringWithSpaces" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -733,7 +733,7 @@ Test Passed.
 28/64 Test: Lexer.MsgRestOfLine
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.MsgRestOfLine" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.MsgRestOfLine" start time: Nov 06 18:34 +05
+"Lexer.MsgRestOfLine" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -752,7 +752,7 @@ Note: Google Test filter = Lexer.MsgRestOfLine
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.MsgRestOfLine" end time: Nov 06 18:34 +05
+"Lexer.MsgRestOfLine" end time: Nov 07 08:28 +05
 "Lexer.MsgRestOfLine" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -760,7 +760,7 @@ Test Passed.
 29/64 Test: Lexer.NoStringAllocations
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Lexer.NoStringAllocations" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Lexer.NoStringAllocations" start time: Nov 06 18:34 +05
+"Lexer.NoStringAllocations" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -779,7 +779,7 @@ Note: Google Test filter = Lexer.NoStringAllocations
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Lexer.NoStringAllocations" end time: Nov 06 18:34 +05
+"Lexer.NoStringAllocations" end time: Nov 07 08:28 +05
 "Lexer.NoStringAllocations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -787,7 +787,7 @@ Test Passed.
 30/64 Test: Dangling.TokenizeOnTemporaryStringIsDangerous
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Dangling.TokenizeOnTemporaryStringIsDangerous" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Dangling.TokenizeOnTemporaryStringIsDangerous" start time: Nov 06 18:34 +05
+"Dangling.TokenizeOnTemporaryStringIsDangerous" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -806,7 +806,7 @@ Note: Google Test filter = Dangling.TokenizeOnTemporaryStringIsDangerous
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Dangling.TokenizeOnTemporaryStringIsDangerous" end time: Nov 06 18:34 +05
+"Dangling.TokenizeOnTemporaryStringIsDangerous" end time: Nov 07 08:28 +05
 "Dangling.TokenizeOnTemporaryStringIsDangerous" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -814,7 +814,7 @@ Test Passed.
 31/64 Test: Dangling.ParseResultSurvivesInputString
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Dangling.ParseResultSurvivesInputString" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Dangling.ParseResultSurvivesInputString" start time: Nov 06 18:34 +05
+"Dangling.ParseResultSurvivesInputString" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -833,7 +833,7 @@ Note: Google Test filter = Dangling.ParseResultSurvivesInputString
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Dangling.ParseResultSurvivesInputString" end time: Nov 06 18:34 +05
+"Dangling.ParseResultSurvivesInputString" end time: Nov 07 08:28 +05
 "Dangling.ParseResultSurvivesInputString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -841,7 +841,7 @@ Test Passed.
 32/64 Test: Concepts.NickLikeAcceptsValidTypes
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Concepts.NickLikeAcceptsValidTypes" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Concepts.NickLikeAcceptsValidTypes" start time: Nov 06 18:34 +05
+"Concepts.NickLikeAcceptsValidTypes" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -860,7 +860,7 @@ Note: Google Test filter = Concepts.NickLikeAcceptsValidTypes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Concepts.NickLikeAcceptsValidTypes" end time: Nov 06 18:34 +05
+"Concepts.NickLikeAcceptsValidTypes" end time: Nov 07 08:28 +05
 "Concepts.NickLikeAcceptsValidTypes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -868,7 +868,7 @@ Test Passed.
 33/64 Test: Concepts.MessageIsSerializable
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Concepts.MessageIsSerializable" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Concepts.MessageIsSerializable" start time: Nov 06 18:34 +05
+"Concepts.MessageIsSerializable" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -884,10 +884,10 @@ Note: Google Test filter = Concepts.MessageIsSerializable
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Concepts.MessageIsSerializable" end time: Nov 06 18:34 +05
+"Concepts.MessageIsSerializable" end time: Nov 07 08:28 +05
 "Concepts.MessageIsSerializable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -895,7 +895,7 @@ Test Passed.
 34/64 Test: Ranges.HistoryPipelineIsLazy
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Ranges.HistoryPipelineIsLazy" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Ranges.HistoryPipelineIsLazy" start time: Nov 06 18:34 +05
+"Ranges.HistoryPipelineIsLazy" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -914,7 +914,7 @@ Note: Google Test filter = Ranges.HistoryPipelineIsLazy
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Ranges.HistoryPipelineIsLazy" end time: Nov 06 18:34 +05
+"Ranges.HistoryPipelineIsLazy" end time: Nov 07 08:28 +05
 "Ranges.HistoryPipelineIsLazy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -922,7 +922,7 @@ Test Passed.
 35/64 Test: Ranges.SortWithProjection
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Ranges.SortWithProjection" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Ranges.SortWithProjection" start time: Nov 06 18:34 +05
+"Ranges.SortWithProjection" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -941,7 +941,7 @@ Note: Google Test filter = Ranges.SortWithProjection
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Ranges.SortWithProjection" end time: Nov 06 18:34 +05
+"Ranges.SortWithProjection" end time: Nov 07 08:28 +05
 "Ranges.SortWithProjection" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -949,7 +949,7 @@ Test Passed.
 36/64 Test: MessageId.DefaultSpaceshipOperator
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=MessageId.DefaultSpaceshipOperator" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"MessageId.DefaultSpaceshipOperator" start time: Nov 06 18:34 +05
+"MessageId.DefaultSpaceshipOperator" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -968,7 +968,7 @@ Note: Google Test filter = MessageId.DefaultSpaceshipOperator
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MessageId.DefaultSpaceshipOperator" end time: Nov 06 18:34 +05
+"MessageId.DefaultSpaceshipOperator" end time: Nov 07 08:28 +05
 "MessageId.DefaultSpaceshipOperator" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -976,7 +976,7 @@ Test Passed.
 37/64 Test: MessageId.ComparisonWithDifferentSeq
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=MessageId.ComparisonWithDifferentSeq" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"MessageId.ComparisonWithDifferentSeq" start time: Nov 06 18:34 +05
+"MessageId.ComparisonWithDifferentSeq" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -989,13 +989,13 @@ Note: Google Test filter = MessageId.ComparisonWithDifferentSeq
 [----------] 1 test from MessageId (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"MessageId.ComparisonWithDifferentSeq" end time: Nov 06 18:34 +05
+"MessageId.ComparisonWithDifferentSeq" end time: Nov 07 08:28 +05
 "MessageId.ComparisonWithDifferentSeq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1003,7 +1003,7 @@ Test Passed.
 38/64 Test: DanglingRange.DemonstratingTheTrap
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=DanglingRange.DemonstratingTheTrap" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"DanglingRange.DemonstratingTheTrap" start time: Nov 06 18:34 +05
+"DanglingRange.DemonstratingTheTrap" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1022,7 +1022,7 @@ Note: Google Test filter = DanglingRange.DemonstratingTheTrap
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DanglingRange.DemonstratingTheTrap" end time: Nov 06 18:34 +05
+"DanglingRange.DemonstratingTheTrap" end time: Nov 07 08:28 +05
 "DanglingRange.DemonstratingTheTrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1030,7 +1030,7 @@ Test Passed.
 39/64 Test: Convert.StringView
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.StringView" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.StringView" start time: Nov 06 18:34 +05
+"Convert.StringView" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1049,7 +1049,7 @@ Note: Google Test filter = Convert.StringView
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.StringView" end time: Nov 06 18:34 +05
+"Convert.StringView" end time: Nov 07 08:28 +05
 "Convert.StringView" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1057,7 +1057,7 @@ Test Passed.
 40/64 Test: Convert.String
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.String" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.String" start time: Nov 06 18:34 +05
+"Convert.String" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1073,10 +1073,10 @@ Note: Google Test filter = Convert.String
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.String" end time: Nov 06 18:34 +05
+"Convert.String" end time: Nov 07 08:28 +05
 "Convert.String" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1084,7 +1084,7 @@ Test Passed.
 41/64 Test: Convert.Int
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.Int" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.Int" start time: Nov 06 18:34 +05
+"Convert.Int" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1103,7 +1103,7 @@ Note: Google Test filter = Convert.Int
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.Int" end time: Nov 06 18:34 +05
+"Convert.Int" end time: Nov 07 08:28 +05
 "Convert.Int" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1111,7 +1111,7 @@ Test Passed.
 42/64 Test: Convert.Double
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.Double" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.Double" start time: Nov 06 18:34 +05
+"Convert.Double" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1120,17 +1120,17 @@ Note: Google Test filter = Convert.Double
 [----------] Global test environment set-up.
 [----------] 1 test from Convert
 [ RUN      ] Convert.Double
-[       OK ] Convert.Double (13 ms)
-[----------] 1 test from Convert (13 ms total)
+[       OK ] Convert.Double (90 ms)
+[----------] 1 test from Convert (90 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (13 ms total)
+[==========] 1 test from 1 test suite ran. (90 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.Double" end time: Nov 06 18:34 +05
+"Convert.Double" end time: Nov 07 08:28 +05
 "Convert.Double" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1138,7 +1138,7 @@ Test Passed.
 43/64 Test: Convert.RoomName
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.RoomName" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.RoomName" start time: Nov 06 18:34 +05
+"Convert.RoomName" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1157,7 +1157,7 @@ Note: Google Test filter = Convert.RoomName
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.RoomName" end time: Nov 06 18:34 +05
+"Convert.RoomName" end time: Nov 07 08:28 +05
 "Convert.RoomName" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1165,7 +1165,7 @@ Test Passed.
 44/64 Test: Convert.RoomNameWithoutHash
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.RoomNameWithoutHash" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.RoomNameWithoutHash" start time: Nov 06 18:34 +05
+"Convert.RoomNameWithoutHash" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1184,7 +1184,7 @@ Note: Google Test filter = Convert.RoomNameWithoutHash
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.RoomNameWithoutHash" end time: Nov 06 18:34 +05
+"Convert.RoomNameWithoutHash" end time: Nov 07 08:28 +05
 "Convert.RoomNameWithoutHash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1192,7 +1192,7 @@ Test Passed.
 45/64 Test: Convert.InvalidNumber
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Convert.InvalidNumber" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Convert.InvalidNumber" start time: Nov 06 18:34 +05
+"Convert.InvalidNumber" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1211,7 +1211,7 @@ Note: Google Test filter = Convert.InvalidNumber
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Convert.InvalidNumber" end time: Nov 06 18:34 +05
+"Convert.InvalidNumber" end time: Nov 07 08:28 +05
 "Convert.InvalidNumber" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1219,7 +1219,7 @@ Test Passed.
 46/64 Test: CommandRegistry.RegisterAndExecute
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.RegisterAndExecute" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.RegisterAndExecute" start time: Nov 06 18:34 +05
+"CommandRegistry.RegisterAndExecute" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1238,7 +1238,7 @@ Note: Google Test filter = CommandRegistry.RegisterAndExecute
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.RegisterAndExecute" end time: Nov 06 18:34 +05
+"CommandRegistry.RegisterAndExecute" end time: Nov 07 08:28 +05
 "CommandRegistry.RegisterAndExecute" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1246,7 +1246,7 @@ Test Passed.
 47/64 Test: CommandRegistry.WrongArity
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.WrongArity" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.WrongArity" start time: Nov 06 18:34 +05
+"CommandRegistry.WrongArity" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1265,7 +1265,7 @@ Note: Google Test filter = CommandRegistry.WrongArity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.WrongArity" end time: Nov 06 18:34 +05
+"CommandRegistry.WrongArity" end time: Nov 07 08:28 +05
 "CommandRegistry.WrongArity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1273,7 +1273,7 @@ Test Passed.
 48/64 Test: CommandRegistry.UnknownCommand
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.UnknownCommand" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.UnknownCommand" start time: Nov 06 18:34 +05
+"CommandRegistry.UnknownCommand" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1292,7 +1292,7 @@ Note: Google Test filter = CommandRegistry.UnknownCommand
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.UnknownCommand" end time: Nov 06 18:34 +05
+"CommandRegistry.UnknownCommand" end time: Nov 07 08:28 +05
 "CommandRegistry.UnknownCommand" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1300,7 +1300,7 @@ Test Passed.
 49/64 Test: CommandRegistry.MultipleArguments
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=CommandRegistry.MultipleArguments" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"CommandRegistry.MultipleArguments" start time: Nov 06 18:34 +05
+"CommandRegistry.MultipleArguments" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1319,7 +1319,7 @@ Note: Google Test filter = CommandRegistry.MultipleArguments
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"CommandRegistry.MultipleArguments" end time: Nov 06 18:34 +05
+"CommandRegistry.MultipleArguments" end time: Nov 07 08:28 +05
 "CommandRegistry.MultipleArguments" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1327,7 +1327,7 @@ Test Passed.
 50/64 Test: RingBuffer.EmptyOnConstruction
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.EmptyOnConstruction" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.EmptyOnConstruction" start time: Nov 06 18:34 +05
+"RingBuffer.EmptyOnConstruction" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1343,10 +1343,10 @@ Note: Google Test filter = RingBuffer.EmptyOnConstruction
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.EmptyOnConstruction" end time: Nov 06 18:34 +05
+"RingBuffer.EmptyOnConstruction" end time: Nov 07 08:28 +05
 "RingBuffer.EmptyOnConstruction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1354,7 +1354,7 @@ Test Passed.
 51/64 Test: RingBuffer.PushBackIncreasesSize
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.PushBackIncreasesSize" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.PushBackIncreasesSize" start time: Nov 06 18:34 +05
+"RingBuffer.PushBackIncreasesSize" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1373,7 +1373,7 @@ Note: Google Test filter = RingBuffer.PushBackIncreasesSize
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.PushBackIncreasesSize" end time: Nov 06 18:34 +05
+"RingBuffer.PushBackIncreasesSize" end time: Nov 07 08:28 +05
 "RingBuffer.PushBackIncreasesSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1381,7 +1381,7 @@ Test Passed.
 52/64 Test: RingBuffer.EvictsOldestOnOverflow
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.EvictsOldestOnOverflow" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.EvictsOldestOnOverflow" start time: Nov 06 18:34 +05
+"RingBuffer.EvictsOldestOnOverflow" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1400,7 +1400,7 @@ Note: Google Test filter = RingBuffer.EvictsOldestOnOverflow
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.EvictsOldestOnOverflow" end time: Nov 06 18:34 +05
+"RingBuffer.EvictsOldestOnOverflow" end time: Nov 07 08:28 +05
 "RingBuffer.EvictsOldestOnOverflow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1408,7 +1408,7 @@ Test Passed.
 53/64 Test: RingBuffer.WraparoundWorks
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.WraparoundWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.WraparoundWorks" start time: Nov 06 18:34 +05
+"RingBuffer.WraparoundWorks" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1427,7 +1427,7 @@ Note: Google Test filter = RingBuffer.WraparoundWorks
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.WraparoundWorks" end time: Nov 06 18:34 +05
+"RingBuffer.WraparoundWorks" end time: Nov 07 08:28 +05
 "RingBuffer.WraparoundWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1435,7 +1435,7 @@ Test Passed.
 54/64 Test: RingBuffer.AtThrowsOnOutOfRange
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.AtThrowsOnOutOfRange" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.AtThrowsOnOutOfRange" start time: Nov 06 18:34 +05
+"RingBuffer.AtThrowsOnOutOfRange" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1454,7 +1454,7 @@ Note: Google Test filter = RingBuffer.AtThrowsOnOutOfRange
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.AtThrowsOnOutOfRange" end time: Nov 06 18:34 +05
+"RingBuffer.AtThrowsOnOutOfRange" end time: Nov 07 08:28 +05
 "RingBuffer.AtThrowsOnOutOfRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1462,7 +1462,7 @@ Test Passed.
 55/64 Test: RingBuffer.ClearResetsState
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=RingBuffer.ClearResetsState" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"RingBuffer.ClearResetsState" start time: Nov 06 18:34 +05
+"RingBuffer.ClearResetsState" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1481,7 +1481,7 @@ Note: Google Test filter = RingBuffer.ClearResetsState
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"RingBuffer.ClearResetsState" end time: Nov 06 18:34 +05
+"RingBuffer.ClearResetsState" end time: Nov 07 08:28 +05
 "RingBuffer.ClearResetsState" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1489,7 +1489,7 @@ Test Passed.
 56/64 Test: HistoryIterator.EmptyRange
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.EmptyRange" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"HistoryIterator.EmptyRange" start time: Nov 06 18:34 +05
+"HistoryIterator.EmptyRange" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1508,7 +1508,7 @@ Note: Google Test filter = HistoryIterator.EmptyRange
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HistoryIterator.EmptyRange" end time: Nov 06 18:34 +05
+"HistoryIterator.EmptyRange" end time: Nov 07 08:28 +05
 "HistoryIterator.EmptyRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1516,7 +1516,7 @@ Test Passed.
 57/64 Test: HistoryIterator.IterateOverFullBuffer
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.IterateOverFullBuffer" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"HistoryIterator.IterateOverFullBuffer" start time: Nov 06 18:34 +05
+"HistoryIterator.IterateOverFullBuffer" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1535,7 +1535,7 @@ Note: Google Test filter = HistoryIterator.IterateOverFullBuffer
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HistoryIterator.IterateOverFullBuffer" end time: Nov 06 18:34 +05
+"HistoryIterator.IterateOverFullBuffer" end time: Nov 07 08:28 +05
 "HistoryIterator.IterateOverFullBuffer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1543,7 +1543,7 @@ Test Passed.
 58/64 Test: HistoryIterator.IterateAfterEviction
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.IterateAfterEviction" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"HistoryIterator.IterateAfterEviction" start time: Nov 06 18:34 +05
+"HistoryIterator.IterateAfterEviction" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1559,10 +1559,10 @@ Note: Google Test filter = HistoryIterator.IterateAfterEviction
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HistoryIterator.IterateAfterEviction" end time: Nov 06 18:34 +05
+"HistoryIterator.IterateAfterEviction" end time: Nov 07 08:28 +05
 "HistoryIterator.IterateAfterEviction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1570,7 +1570,7 @@ Test Passed.
 59/64 Test: HistoryIterator.WorksWithSTLAlgorithms
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.WorksWithSTLAlgorithms" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"HistoryIterator.WorksWithSTLAlgorithms" start time: Nov 06 18:34 +05
+"HistoryIterator.WorksWithSTLAlgorithms" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1589,7 +1589,7 @@ Note: Google Test filter = HistoryIterator.WorksWithSTLAlgorithms
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HistoryIterator.WorksWithSTLAlgorithms" end time: Nov 06 18:34 +05
+"HistoryIterator.WorksWithSTLAlgorithms" end time: Nov 07 08:28 +05
 "HistoryIterator.WorksWithSTLAlgorithms" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1597,7 +1597,7 @@ Test Passed.
 60/64 Test: HistoryIterator.ConstIterator
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=HistoryIterator.ConstIterator" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"HistoryIterator.ConstIterator" start time: Nov 06 18:34 +05
+"HistoryIterator.ConstIterator" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1616,7 +1616,7 @@ Note: Google Test filter = HistoryIterator.ConstIterator
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"HistoryIterator.ConstIterator" end time: Nov 06 18:34 +05
+"HistoryIterator.ConstIterator" end time: Nov 07 08:28 +05
 "HistoryIterator.ConstIterator" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1624,7 +1624,7 @@ Test Passed.
 61/64 Test: Invalidation.EraseDuringIterationIsDangerous
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.EraseDuringIterationIsDangerous" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Invalidation.EraseDuringIterationIsDangerous" start time: Nov 06 18:34 +05
+"Invalidation.EraseDuringIterationIsDangerous" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1643,7 +1643,7 @@ Note: Google Test filter = Invalidation.EraseDuringIterationIsDangerous
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Invalidation.EraseDuringIterationIsDangerous" end time: Nov 06 18:34 +05
+"Invalidation.EraseDuringIterationIsDangerous" end time: Nov 07 08:28 +05
 "Invalidation.EraseDuringIterationIsDangerous" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1651,7 +1651,7 @@ Test Passed.
 62/64 Test: Invalidation.RingBufferInvalidationOnPushBack
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.RingBufferInvalidationOnPushBack" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Invalidation.RingBufferInvalidationOnPushBack" start time: Nov 06 18:34 +05
+"Invalidation.RingBufferInvalidationOnPushBack" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1670,7 +1670,7 @@ Note: Google Test filter = Invalidation.RingBufferInvalidationOnPushBack
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Invalidation.RingBufferInvalidationOnPushBack" end time: Nov 06 18:34 +05
+"Invalidation.RingBufferInvalidationOnPushBack" end time: Nov 07 08:28 +05
 "Invalidation.RingBufferInvalidationOnPushBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1678,7 +1678,7 @@ Test Passed.
 63/64 Test: Invalidation.MapIteratorInvalidationOnErase
 Command: "/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" "--gtest_filter=Invalidation.MapIteratorInvalidationOnErase" "--gtest_also_run_disabled_tests"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"Invalidation.MapIteratorInvalidationOnErase" start time: Nov 06 18:34 +05
+"Invalidation.MapIteratorInvalidationOnErase" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
@@ -1697,7 +1697,7 @@ Note: Google Test filter = Invalidation.MapIteratorInvalidationOnErase
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Invalidation.MapIteratorInvalidationOnErase" end time: Nov 06 18:34 +05
+"Invalidation.MapIteratorInvalidationOnErase" end time: Nov 07 08:28 +05
 "Invalidation.MapIteratorInvalidationOnErase" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1705,7 +1705,7 @@ Test Passed.
 64/64 Test: compile_fail_test
 Command: "/usr/bin/cmake" "--build" "/home/apal/Рабочий стол/Learning_cpp/build" "--target" "chat_compile_fail_test"
 Directory: /home/apal/Рабочий стол/Learning_cpp/build
-"compile_fail_test" start time: Nov 06 18:34 +05
+"compile_fail_test" start time: Nov 07 08:28 +05
 Output:
 ----------------------------------------------------------
 [ 75%] Built target chat_core
@@ -1735,15 +1735,15 @@ In file included from /home/apal/Рабочий стол/Learning_cpp/include/ch
       |             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
 /home/apal/Рабочий стол/Learning_cpp/include/chat_core/convert.hpp:44:18: note: ‘std::is_same_v<std::vector<int>, void>’ evaluates to false
 gmake[3]: *** [CMakeFiles/chat_compile_fail_test.dir/build.make:79: CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o] Ошибка 1
-gmake[2]: *** [CMakeFiles/Makefile2:190: CMakeFiles/chat_compile_fail_test.dir/all] Ошибка 2
-gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/chat_compile_fail_test.dir/rule] Ошибка 2
+gmake[2]: *** [CMakeFiles/Makefile2:199: CMakeFiles/chat_compile_fail_test.dir/all] Ошибка 2
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/chat_compile_fail_test.dir/rule] Ошибка 2
 gmake: *** [Makefile:180: chat_compile_fail_test] Ошибка 2
 <end of output>
-Test time =   0.46 sec
+Test time =   2.93 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_fail_test" end time: Nov 06 18:34 +05
-"compile_fail_test" time elapsed: 00:00:00
+"compile_fail_test" end time: Nov 07 08:28 +05
+"compile_fail_test" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-End testing: Nov 06 18:34 +05
+End testing: Nov 07 08:28 +05
