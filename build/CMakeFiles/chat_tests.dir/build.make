@@ -72,38 +72,24 @@ include CMakeFiles/chat_tests.dir/flags.make
 CMakeFiles/chat_tests.dir/codegen:
 .PHONY : CMakeFiles/chat_tests.dir/codegen
 
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_message.cpp
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_message.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_message.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_message.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_message.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp"
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_chat_service.cpp
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_service.cpp"
 
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp" > CMakeFiles/chat_tests.dir/tests/test_message.cpp.i
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_service.cpp" > CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.i
 
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp" -o CMakeFiles/chat_tests.dir/tests/test_message.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_owning_buffer.cpp
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_owning_buffer.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_owning_buffer.cpp" > CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_owning_buffer.cpp" -o CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.s
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_service.cpp" -o CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.s
 
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: CMakeFiles/chat_tests.dir/flags.make
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_chat_store.cpp
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_store.cpp"
 
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.i: cmake_force
@@ -114,108 +100,10 @@ CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_chat_store.cpp" -o CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.s
 
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_lexer.cpp
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp" > CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp" -o CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_dangling.cpp
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp" > CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp" -o CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_concepts.cpp
-CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp" > CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp" -o CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_ranges.cpp
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp" > CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp" -o CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_message_id.cpp
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp" > CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp" -o CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_dangling_range.cpp
-CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp" > CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp" -o CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s
-
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: CMakeFiles/chat_tests.dir/flags.make
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_convert.cpp
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp"
-
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp" > CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i
-
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp" -o CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s
-
 CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o: CMakeFiles/chat_tests.dir/flags.make
 CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_command_registry.cpp
 CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_command_registry.cpp"
 
 CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.i: cmake_force
@@ -226,41 +114,236 @@ CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_command_registry.cpp" -o CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.s
 
+CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_concepts.cpp
+CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp" > CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_concepts.cpp" -o CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_convert.cpp
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp" > CMakeFiles/chat_tests.dir/tests/test_convert.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_convert.cpp" -o CMakeFiles/chat_tests.dir/tests/test_convert.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_dangling.cpp
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp" > CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling.cpp" -o CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_dangling_range.cpp
+CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp" > CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_dangling_range.cpp" -o CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_fnv1a.cpp
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_fnv1a.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_fnv1a.cpp" > CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_fnv1a.cpp" -o CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_hash_engine.cpp
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_hash_engine.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_hash_engine.cpp" > CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_hash_engine.cpp" -o CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_history_iterator.cpp
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp" > CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_history_iterator.cpp" -o CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_invalidation.cpp
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp" > CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_invalidation.cpp" -o CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_lexer.cpp
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp" > CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_lexer.cpp" -o CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_message.cpp
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_message.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_message.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_message.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_message.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_message.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp" > CMakeFiles/chat_tests.dir/tests/test_message.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_message.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_message.cpp" -o CMakeFiles/chat_tests.dir/tests/test_message.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_message_id.cpp
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp" > CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_message_id.cpp" -o CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_ranges.cpp
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp" > CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_ranges.cpp" -o CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: CMakeFiles/chat_tests.dir/flags.make
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/tests/test_ring_buffer.cpp
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o: CMakeFiles/chat_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o -MF CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o.d -o CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp"
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp" > CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/tests/test_ring_buffer.cpp" -o CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s
+
 # Object files for target chat_tests
 chat_tests_OBJECTS = \
-"CMakeFiles/chat_tests.dir/tests/test_message.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o" \
 "CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o" \
 "CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o" \
 "CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o" \
-"CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o"
+"CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_message.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o" \
+"CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o"
 
 # External object files for target chat_tests
 chat_tests_EXTERNAL_OBJECTS =
 
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_message.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o
-chat_tests: CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_message.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o
+chat_tests: CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o
 chat_tests: CMakeFiles/chat_tests.dir/build.make
 chat_tests: CMakeFiles/chat_tests.dir/compiler_depend.ts
-chat_tests: libchat_core.a
+chat_tests: libchat_infrastructure.a
 chat_tests: /usr/lib/x86_64-linux-gnu/libgtest_main.a
+chat_tests: libchat_application.a
+chat_tests: /usr/local/lib/liblab_kafka.a
+chat_tests: /usr/lib/x86_64-linux-gnu/librdkafka.so
 chat_tests: /usr/lib/x86_64-linux-gnu/libgtest.a
 chat_tests: CMakeFiles/chat_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable chat_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable chat_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chat_tests.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=chat_tests -D "TEST_EXECUTABLE=/home/apal/Рабочий стол/Learning_cpp/build/chat_tests" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/home/apal/Рабочий стол/Learning_cpp/build" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=chat_tests_TESTS -D "CTEST_FILE=/home/apal/Рабочий стол/Learning_cpp/build/chat_tests[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-4.2/Modules/GoogleTestAddTests.cmake
 

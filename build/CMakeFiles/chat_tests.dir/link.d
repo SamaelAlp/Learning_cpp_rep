@@ -2,19 +2,27 @@ chat_tests: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
-  CMakeFiles/chat_tests.dir/tests/test_message.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o \
   CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o \
-  CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o \
   CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o \
-  libchat_core.a \
+  CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_message.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o \
+  libchat_infrastructure.a \
   /usr/lib/x86_64-linux-gnu/libgtest_main.a \
+  libchat_application.a \
+  /usr/local/lib/liblab_kafka.a \
+  /usr/lib/x86_64-linux-gnu/librdkafka.so \
   /usr/lib/x86_64-linux-gnu/libgtest.a \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -50,31 +58,47 @@ chat_tests: \
 
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
-CMakeFiles/chat_tests.dir/tests/test_message.cpp.o:
-
-CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o:
 
 CMakeFiles/chat_tests.dir/tests/test_chat_store.cpp.o:
 
-CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o:
-
-CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o:
 
 CMakeFiles/chat_tests.dir/tests/test_concepts.cpp.o:
 
-CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o:
 
-CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_dangling.cpp.o:
 
 CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o:
 
-CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o:
 
-CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o:
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o:
 
-libchat_core.a:
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_message.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o:
+
+libchat_infrastructure.a:
 
 /usr/lib/x86_64-linux-gnu/libgtest_main.a:
+
+libchat_application.a:
+
+/usr/local/lib/liblab_kafka.a:
+
+/usr/lib/x86_64-linux-gnu/librdkafka.so:
 
 /usr/lib/x86_64-linux-gnu/libgtest.a:
 

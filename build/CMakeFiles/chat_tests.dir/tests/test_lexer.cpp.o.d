@@ -1,7 +1,7 @@
 CMakeFiles/chat_tests.dir/tests/test_lexer.cpp.o: \
  /home/apal/Рабочий\ стол/Learning_cpp/tests/test_lexer.cpp \
  /usr/include/stdc-predef.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/lexer.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/lexer.hpp \
  /usr/include/c++/15/string_view /usr/include/c++/15/bits/version.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \

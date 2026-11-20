@@ -96,7 +96,10 @@ chat_compile_fail_test_EXTERNAL_OBJECTS =
 chat_compile_fail_test: CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o
 chat_compile_fail_test: CMakeFiles/chat_compile_fail_test.dir/build.make
 chat_compile_fail_test: CMakeFiles/chat_compile_fail_test.dir/compiler_depend.ts
-chat_compile_fail_test: libchat_core.a
+chat_compile_fail_test: libchat_infrastructure.a
+chat_compile_fail_test: libchat_application.a
+chat_compile_fail_test: /usr/local/lib/liblab_kafka.a
+chat_compile_fail_test: /usr/lib/x86_64-linux-gnu/librdkafka.so
 chat_compile_fail_test: CMakeFiles/chat_compile_fail_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable chat_compile_fail_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chat_compile_fail_test.dir/link.txt --verbose=$(VERBOSE)

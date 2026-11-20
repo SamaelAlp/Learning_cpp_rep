@@ -102,13 +102,6 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" 0
 .PHONY : all
 
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" "/home/apal/Рабочий стол/Learning_cpp/build//CMakeFiles/progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" 0
-.PHONY : codegen
-
 # The main clean target
 clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
@@ -130,21 +123,35 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P "/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named chat_core
+# Target rules for targets named chat_application
 
 # Build rule for target.
-chat_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_core
-.PHONY : chat_core
+chat_application: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_application
+.PHONY : chat_application
 
 # fast build rule for target.
-chat_core/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/build
-.PHONY : chat_core/fast
+chat_application/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/build
+.PHONY : chat_application/fast
+
+#=============================================================================
+# Target rules for targets named chat_infrastructure
+
+# Build rule for target.
+chat_infrastructure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_infrastructure
+.PHONY : chat_infrastructure
+
+# fast build rule for target.
+chat_infrastructure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/build
+.PHONY : chat_infrastructure/fast
 
 #=============================================================================
 # Target rules for targets named chat_cli
@@ -158,6 +165,19 @@ chat_cli: cmake_check_build_system
 chat_cli/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_cli.dir/build.make CMakeFiles/chat_cli.dir/build
 .PHONY : chat_cli/fast
+
+#=============================================================================
+# Target rules for targets named chat_tail
+
+# Build rule for target.
+chat_tail: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chat_tail
+.PHONY : chat_tail
+
+# fast build rule for target.
+chat_tail/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tail.dir/build.make CMakeFiles/chat_tail.dir/build
+.PHONY : chat_tail/fast
 
 #=============================================================================
 # Target rules for targets named chat_tests
@@ -185,6 +205,78 @@ chat_compile_fail_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_compile_fail_test.dir/build.make CMakeFiles/chat_compile_fail_test.dir/build
 .PHONY : chat_compile_fail_test/fast
 
+src/application_impl/chat_service.o: src/application_impl/chat_service.cpp.o
+.PHONY : src/application_impl/chat_service.o
+
+# target to build an object file
+src/application_impl/chat_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/chat_service.cpp.o
+.PHONY : src/application_impl/chat_service.cpp.o
+
+src/application_impl/chat_service.i: src/application_impl/chat_service.cpp.i
+.PHONY : src/application_impl/chat_service.i
+
+# target to preprocess a source file
+src/application_impl/chat_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/chat_service.cpp.i
+.PHONY : src/application_impl/chat_service.cpp.i
+
+src/application_impl/chat_service.s: src/application_impl/chat_service.cpp.s
+.PHONY : src/application_impl/chat_service.s
+
+# target to generate assembly for a file
+src/application_impl/chat_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/chat_service.cpp.s
+.PHONY : src/application_impl/chat_service.cpp.s
+
+src/application_impl/command_registry.o: src/application_impl/command_registry.cpp.o
+.PHONY : src/application_impl/command_registry.o
+
+# target to build an object file
+src/application_impl/command_registry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/command_registry.cpp.o
+.PHONY : src/application_impl/command_registry.cpp.o
+
+src/application_impl/command_registry.i: src/application_impl/command_registry.cpp.i
+.PHONY : src/application_impl/command_registry.i
+
+# target to preprocess a source file
+src/application_impl/command_registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/command_registry.cpp.i
+.PHONY : src/application_impl/command_registry.cpp.i
+
+src/application_impl/command_registry.s: src/application_impl/command_registry.cpp.s
+.PHONY : src/application_impl/command_registry.s
+
+# target to generate assembly for a file
+src/application_impl/command_registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/command_registry.cpp.s
+.PHONY : src/application_impl/command_registry.cpp.s
+
+src/application_impl/lexer.o: src/application_impl/lexer.cpp.o
+.PHONY : src/application_impl/lexer.o
+
+# target to build an object file
+src/application_impl/lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/lexer.cpp.o
+.PHONY : src/application_impl/lexer.cpp.o
+
+src/application_impl/lexer.i: src/application_impl/lexer.cpp.i
+.PHONY : src/application_impl/lexer.i
+
+# target to preprocess a source file
+src/application_impl/lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/lexer.cpp.i
+.PHONY : src/application_impl/lexer.cpp.i
+
+src/application_impl/lexer.s: src/application_impl/lexer.cpp.s
+.PHONY : src/application_impl/lexer.s
+
+# target to generate assembly for a file
+src/application_impl/lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_application.dir/build.make CMakeFiles/chat_application.dir/src/application_impl/lexer.cpp.s
+.PHONY : src/application_impl/lexer.cpp.s
+
 src/chat_cli/main.o: src/chat_cli/main.cpp.o
 .PHONY : src/chat_cli/main.o
 
@@ -209,125 +301,197 @@ src/chat_cli/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_cli.dir/build.make CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.s
 .PHONY : src/chat_cli/main.cpp.s
 
-src/chat_store.o: src/chat_store.cpp.o
-.PHONY : src/chat_store.o
+src/chat_tail/main.o: src/chat_tail/main.cpp.o
+.PHONY : src/chat_tail/main.o
 
 # target to build an object file
-src/chat_store.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/chat_store.cpp.o
-.PHONY : src/chat_store.cpp.o
+src/chat_tail/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tail.dir/build.make CMakeFiles/chat_tail.dir/src/chat_tail/main.cpp.o
+.PHONY : src/chat_tail/main.cpp.o
 
-src/chat_store.i: src/chat_store.cpp.i
-.PHONY : src/chat_store.i
+src/chat_tail/main.i: src/chat_tail/main.cpp.i
+.PHONY : src/chat_tail/main.i
 
 # target to preprocess a source file
-src/chat_store.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/chat_store.cpp.i
-.PHONY : src/chat_store.cpp.i
+src/chat_tail/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tail.dir/build.make CMakeFiles/chat_tail.dir/src/chat_tail/main.cpp.i
+.PHONY : src/chat_tail/main.cpp.i
 
-src/chat_store.s: src/chat_store.cpp.s
-.PHONY : src/chat_store.s
+src/chat_tail/main.s: src/chat_tail/main.cpp.s
+.PHONY : src/chat_tail/main.s
 
 # target to generate assembly for a file
-src/chat_store.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/chat_store.cpp.s
-.PHONY : src/chat_store.cpp.s
+src/chat_tail/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tail.dir/build.make CMakeFiles/chat_tail.dir/src/chat_tail/main.cpp.s
+.PHONY : src/chat_tail/main.cpp.s
 
-src/command_registry.o: src/command_registry.cpp.o
-.PHONY : src/command_registry.o
+src/infrastructure_impl/engine_factory.o: src/infrastructure_impl/engine_factory.cpp.o
+.PHONY : src/infrastructure_impl/engine_factory.o
 
 # target to build an object file
-src/command_registry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/command_registry.cpp.o
-.PHONY : src/command_registry.cpp.o
+src/infrastructure_impl/engine_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/engine_factory.cpp.o
+.PHONY : src/infrastructure_impl/engine_factory.cpp.o
 
-src/command_registry.i: src/command_registry.cpp.i
-.PHONY : src/command_registry.i
+src/infrastructure_impl/engine_factory.i: src/infrastructure_impl/engine_factory.cpp.i
+.PHONY : src/infrastructure_impl/engine_factory.i
 
 # target to preprocess a source file
-src/command_registry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/command_registry.cpp.i
-.PHONY : src/command_registry.cpp.i
+src/infrastructure_impl/engine_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/engine_factory.cpp.i
+.PHONY : src/infrastructure_impl/engine_factory.cpp.i
 
-src/command_registry.s: src/command_registry.cpp.s
-.PHONY : src/command_registry.s
+src/infrastructure_impl/engine_factory.s: src/infrastructure_impl/engine_factory.cpp.s
+.PHONY : src/infrastructure_impl/engine_factory.s
 
 # target to generate assembly for a file
-src/command_registry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/command_registry.cpp.s
-.PHONY : src/command_registry.cpp.s
+src/infrastructure_impl/engine_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/engine_factory.cpp.s
+.PHONY : src/infrastructure_impl/engine_factory.cpp.s
 
-src/lexer.o: src/lexer.cpp.o
-.PHONY : src/lexer.o
+src/infrastructure_impl/file_log_sink.o: src/infrastructure_impl/file_log_sink.cpp.o
+.PHONY : src/infrastructure_impl/file_log_sink.o
 
 # target to build an object file
-src/lexer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/lexer.cpp.o
-.PHONY : src/lexer.cpp.o
+src/infrastructure_impl/file_log_sink.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/file_log_sink.cpp.o
+.PHONY : src/infrastructure_impl/file_log_sink.cpp.o
 
-src/lexer.i: src/lexer.cpp.i
-.PHONY : src/lexer.i
+src/infrastructure_impl/file_log_sink.i: src/infrastructure_impl/file_log_sink.cpp.i
+.PHONY : src/infrastructure_impl/file_log_sink.i
 
 # target to preprocess a source file
-src/lexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/lexer.cpp.i
-.PHONY : src/lexer.cpp.i
+src/infrastructure_impl/file_log_sink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/file_log_sink.cpp.i
+.PHONY : src/infrastructure_impl/file_log_sink.cpp.i
 
-src/lexer.s: src/lexer.cpp.s
-.PHONY : src/lexer.s
+src/infrastructure_impl/file_log_sink.s: src/infrastructure_impl/file_log_sink.cpp.s
+.PHONY : src/infrastructure_impl/file_log_sink.s
 
 # target to generate assembly for a file
-src/lexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/lexer.cpp.s
-.PHONY : src/lexer.cpp.s
+src/infrastructure_impl/file_log_sink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/file_log_sink.cpp.s
+.PHONY : src/infrastructure_impl/file_log_sink.cpp.s
 
-src/message.o: src/message.cpp.o
-.PHONY : src/message.o
+src/infrastructure_impl/hash_engine.o: src/infrastructure_impl/hash_engine.cpp.o
+.PHONY : src/infrastructure_impl/hash_engine.o
 
 # target to build an object file
-src/message.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/message.cpp.o
-.PHONY : src/message.cpp.o
+src/infrastructure_impl/hash_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/hash_engine.cpp.o
+.PHONY : src/infrastructure_impl/hash_engine.cpp.o
 
-src/message.i: src/message.cpp.i
-.PHONY : src/message.i
+src/infrastructure_impl/hash_engine.i: src/infrastructure_impl/hash_engine.cpp.i
+.PHONY : src/infrastructure_impl/hash_engine.i
 
 # target to preprocess a source file
-src/message.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/message.cpp.i
-.PHONY : src/message.cpp.i
+src/infrastructure_impl/hash_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/hash_engine.cpp.i
+.PHONY : src/infrastructure_impl/hash_engine.cpp.i
 
-src/message.s: src/message.cpp.s
-.PHONY : src/message.s
+src/infrastructure_impl/hash_engine.s: src/infrastructure_impl/hash_engine.cpp.s
+.PHONY : src/infrastructure_impl/hash_engine.s
 
 # target to generate assembly for a file
-src/message.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/message.cpp.s
-.PHONY : src/message.cpp.s
+src/infrastructure_impl/hash_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/hash_engine.cpp.s
+.PHONY : src/infrastructure_impl/hash_engine.cpp.s
 
-src/owning_buffer.o: src/owning_buffer.cpp.o
-.PHONY : src/owning_buffer.o
+src/infrastructure_impl/kafka_event_publisher.o: src/infrastructure_impl/kafka_event_publisher.cpp.o
+.PHONY : src/infrastructure_impl/kafka_event_publisher.o
 
 # target to build an object file
-src/owning_buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o
-.PHONY : src/owning_buffer.cpp.o
+src/infrastructure_impl/kafka_event_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/kafka_event_publisher.cpp.o
+.PHONY : src/infrastructure_impl/kafka_event_publisher.cpp.o
 
-src/owning_buffer.i: src/owning_buffer.cpp.i
-.PHONY : src/owning_buffer.i
+src/infrastructure_impl/kafka_event_publisher.i: src/infrastructure_impl/kafka_event_publisher.cpp.i
+.PHONY : src/infrastructure_impl/kafka_event_publisher.i
 
 # target to preprocess a source file
-src/owning_buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/owning_buffer.cpp.i
-.PHONY : src/owning_buffer.cpp.i
+src/infrastructure_impl/kafka_event_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/kafka_event_publisher.cpp.i
+.PHONY : src/infrastructure_impl/kafka_event_publisher.cpp.i
 
-src/owning_buffer.s: src/owning_buffer.cpp.s
-.PHONY : src/owning_buffer.s
+src/infrastructure_impl/kafka_event_publisher.s: src/infrastructure_impl/kafka_event_publisher.cpp.s
+.PHONY : src/infrastructure_impl/kafka_event_publisher.s
 
 # target to generate assembly for a file
-src/owning_buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/owning_buffer.cpp.s
-.PHONY : src/owning_buffer.cpp.s
+src/infrastructure_impl/kafka_event_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/kafka_event_publisher.cpp.s
+.PHONY : src/infrastructure_impl/kafka_event_publisher.cpp.s
+
+src/infrastructure_impl/message.o: src/infrastructure_impl/message.cpp.o
+.PHONY : src/infrastructure_impl/message.o
+
+# target to build an object file
+src/infrastructure_impl/message.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/message.cpp.o
+.PHONY : src/infrastructure_impl/message.cpp.o
+
+src/infrastructure_impl/message.i: src/infrastructure_impl/message.cpp.i
+.PHONY : src/infrastructure_impl/message.i
+
+# target to preprocess a source file
+src/infrastructure_impl/message.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/message.cpp.i
+.PHONY : src/infrastructure_impl/message.cpp.i
+
+src/infrastructure_impl/message.s: src/infrastructure_impl/message.cpp.s
+.PHONY : src/infrastructure_impl/message.s
+
+# target to generate assembly for a file
+src/infrastructure_impl/message.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/message.cpp.s
+.PHONY : src/infrastructure_impl/message.cpp.s
+
+src/infrastructure_impl/std_engine.o: src/infrastructure_impl/std_engine.cpp.o
+.PHONY : src/infrastructure_impl/std_engine.o
+
+# target to build an object file
+src/infrastructure_impl/std_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/std_engine.cpp.o
+.PHONY : src/infrastructure_impl/std_engine.cpp.o
+
+src/infrastructure_impl/std_engine.i: src/infrastructure_impl/std_engine.cpp.i
+.PHONY : src/infrastructure_impl/std_engine.i
+
+# target to preprocess a source file
+src/infrastructure_impl/std_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/std_engine.cpp.i
+.PHONY : src/infrastructure_impl/std_engine.cpp.i
+
+src/infrastructure_impl/std_engine.s: src/infrastructure_impl/std_engine.cpp.s
+.PHONY : src/infrastructure_impl/std_engine.s
+
+# target to generate assembly for a file
+src/infrastructure_impl/std_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_infrastructure.dir/build.make CMakeFiles/chat_infrastructure.dir/src/infrastructure_impl/std_engine.cpp.s
+.PHONY : src/infrastructure_impl/std_engine.cpp.s
+
+tests/test_chat_service.o: tests/test_chat_service.cpp.o
+.PHONY : tests/test_chat_service.o
+
+# target to build an object file
+tests/test_chat_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.o
+.PHONY : tests/test_chat_service.cpp.o
+
+tests/test_chat_service.i: tests/test_chat_service.cpp.i
+.PHONY : tests/test_chat_service.i
+
+# target to preprocess a source file
+tests/test_chat_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.i
+.PHONY : tests/test_chat_service.cpp.i
+
+tests/test_chat_service.s: tests/test_chat_service.cpp.s
+.PHONY : tests/test_chat_service.s
+
+# target to generate assembly for a file
+tests/test_chat_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_chat_service.cpp.s
+.PHONY : tests/test_chat_service.cpp.s
 
 tests/test_chat_store.o: tests/test_chat_store.cpp.o
 .PHONY : tests/test_chat_store.o
@@ -497,6 +661,102 @@ tests/test_dangling_range.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s
 .PHONY : tests/test_dangling_range.cpp.s
 
+tests/test_fnv1a.o: tests/test_fnv1a.cpp.o
+.PHONY : tests/test_fnv1a.o
+
+# target to build an object file
+tests/test_fnv1a.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o
+.PHONY : tests/test_fnv1a.cpp.o
+
+tests/test_fnv1a.i: tests/test_fnv1a.cpp.i
+.PHONY : tests/test_fnv1a.i
+
+# target to preprocess a source file
+tests/test_fnv1a.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.i
+.PHONY : tests/test_fnv1a.cpp.i
+
+tests/test_fnv1a.s: tests/test_fnv1a.cpp.s
+.PHONY : tests/test_fnv1a.s
+
+# target to generate assembly for a file
+tests/test_fnv1a.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.s
+.PHONY : tests/test_fnv1a.cpp.s
+
+tests/test_hash_engine.o: tests/test_hash_engine.cpp.o
+.PHONY : tests/test_hash_engine.o
+
+# target to build an object file
+tests/test_hash_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o
+.PHONY : tests/test_hash_engine.cpp.o
+
+tests/test_hash_engine.i: tests/test_hash_engine.cpp.i
+.PHONY : tests/test_hash_engine.i
+
+# target to preprocess a source file
+tests/test_hash_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.i
+.PHONY : tests/test_hash_engine.cpp.i
+
+tests/test_hash_engine.s: tests/test_hash_engine.cpp.s
+.PHONY : tests/test_hash_engine.s
+
+# target to generate assembly for a file
+tests/test_hash_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.s
+.PHONY : tests/test_hash_engine.cpp.s
+
+tests/test_history_iterator.o: tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.o
+
+# target to build an object file
+tests/test_history_iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.cpp.o
+
+tests/test_history_iterator.i: tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.i
+
+# target to preprocess a source file
+tests/test_history_iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.cpp.i
+
+tests/test_history_iterator.s: tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.s
+
+# target to generate assembly for a file
+tests/test_history_iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.cpp.s
+
+tests/test_invalidation.o: tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.o
+
+# target to build an object file
+tests/test_invalidation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.cpp.o
+
+tests/test_invalidation.i: tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.i
+
+# target to preprocess a source file
+tests/test_invalidation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.cpp.i
+
+tests/test_invalidation.s: tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.s
+
+# target to generate assembly for a file
+tests/test_invalidation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.cpp.s
+
 tests/test_lexer.o: tests/test_lexer.cpp.o
 .PHONY : tests/test_lexer.o
 
@@ -569,30 +829,6 @@ tests/test_message_id.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.s
 .PHONY : tests/test_message_id.cpp.s
 
-tests/test_owning_buffer.o: tests/test_owning_buffer.cpp.o
-.PHONY : tests/test_owning_buffer.o
-
-# target to build an object file
-tests/test_owning_buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.o
-.PHONY : tests/test_owning_buffer.cpp.o
-
-tests/test_owning_buffer.i: tests/test_owning_buffer.cpp.i
-.PHONY : tests/test_owning_buffer.i
-
-# target to preprocess a source file
-tests/test_owning_buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.i
-.PHONY : tests/test_owning_buffer.cpp.i
-
-tests/test_owning_buffer.s: tests/test_owning_buffer.cpp.s
-.PHONY : tests/test_owning_buffer.s
-
-# target to generate assembly for a file
-tests/test_owning_buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_owning_buffer.cpp.s
-.PHONY : tests/test_owning_buffer.cpp.s
-
 tests/test_ranges.o: tests/test_ranges.cpp.o
 .PHONY : tests/test_ranges.o
 
@@ -617,38 +853,81 @@ tests/test_ranges.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s
 .PHONY : tests/test_ranges.cpp.s
 
+tests/test_ring_buffer.o: tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.o
+
+# target to build an object file
+tests/test_ring_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.cpp.o
+
+tests/test_ring_buffer.i: tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.i
+
+# target to preprocess a source file
+tests/test_ring_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.cpp.i
+
+tests/test_ring_buffer.s: tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.s
+
+# target to generate assembly for a file
+tests/test_ring_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... chat_application"
 	@echo "... chat_cli"
 	@echo "... chat_compile_fail_test"
-	@echo "... chat_core"
+	@echo "... chat_infrastructure"
+	@echo "... chat_tail"
 	@echo "... chat_tests"
+	@echo "... src/application_impl/chat_service.o"
+	@echo "... src/application_impl/chat_service.i"
+	@echo "... src/application_impl/chat_service.s"
+	@echo "... src/application_impl/command_registry.o"
+	@echo "... src/application_impl/command_registry.i"
+	@echo "... src/application_impl/command_registry.s"
+	@echo "... src/application_impl/lexer.o"
+	@echo "... src/application_impl/lexer.i"
+	@echo "... src/application_impl/lexer.s"
 	@echo "... src/chat_cli/main.o"
 	@echo "... src/chat_cli/main.i"
 	@echo "... src/chat_cli/main.s"
-	@echo "... src/chat_store.o"
-	@echo "... src/chat_store.i"
-	@echo "... src/chat_store.s"
-	@echo "... src/command_registry.o"
-	@echo "... src/command_registry.i"
-	@echo "... src/command_registry.s"
-	@echo "... src/lexer.o"
-	@echo "... src/lexer.i"
-	@echo "... src/lexer.s"
-	@echo "... src/message.o"
-	@echo "... src/message.i"
-	@echo "... src/message.s"
-	@echo "... src/owning_buffer.o"
-	@echo "... src/owning_buffer.i"
-	@echo "... src/owning_buffer.s"
+	@echo "... src/chat_tail/main.o"
+	@echo "... src/chat_tail/main.i"
+	@echo "... src/chat_tail/main.s"
+	@echo "... src/infrastructure_impl/engine_factory.o"
+	@echo "... src/infrastructure_impl/engine_factory.i"
+	@echo "... src/infrastructure_impl/engine_factory.s"
+	@echo "... src/infrastructure_impl/file_log_sink.o"
+	@echo "... src/infrastructure_impl/file_log_sink.i"
+	@echo "... src/infrastructure_impl/file_log_sink.s"
+	@echo "... src/infrastructure_impl/hash_engine.o"
+	@echo "... src/infrastructure_impl/hash_engine.i"
+	@echo "... src/infrastructure_impl/hash_engine.s"
+	@echo "... src/infrastructure_impl/kafka_event_publisher.o"
+	@echo "... src/infrastructure_impl/kafka_event_publisher.i"
+	@echo "... src/infrastructure_impl/kafka_event_publisher.s"
+	@echo "... src/infrastructure_impl/message.o"
+	@echo "... src/infrastructure_impl/message.i"
+	@echo "... src/infrastructure_impl/message.s"
+	@echo "... src/infrastructure_impl/std_engine.o"
+	@echo "... src/infrastructure_impl/std_engine.i"
+	@echo "... src/infrastructure_impl/std_engine.s"
+	@echo "... tests/test_chat_service.o"
+	@echo "... tests/test_chat_service.i"
+	@echo "... tests/test_chat_service.s"
 	@echo "... tests/test_chat_store.o"
 	@echo "... tests/test_chat_store.i"
 	@echo "... tests/test_chat_store.s"
@@ -670,6 +949,18 @@ help:
 	@echo "... tests/test_dangling_range.o"
 	@echo "... tests/test_dangling_range.i"
 	@echo "... tests/test_dangling_range.s"
+	@echo "... tests/test_fnv1a.o"
+	@echo "... tests/test_fnv1a.i"
+	@echo "... tests/test_fnv1a.s"
+	@echo "... tests/test_hash_engine.o"
+	@echo "... tests/test_hash_engine.i"
+	@echo "... tests/test_hash_engine.s"
+	@echo "... tests/test_history_iterator.o"
+	@echo "... tests/test_history_iterator.i"
+	@echo "... tests/test_history_iterator.s"
+	@echo "... tests/test_invalidation.o"
+	@echo "... tests/test_invalidation.i"
+	@echo "... tests/test_invalidation.s"
 	@echo "... tests/test_lexer.o"
 	@echo "... tests/test_lexer.i"
 	@echo "... tests/test_lexer.s"
@@ -679,12 +970,12 @@ help:
 	@echo "... tests/test_message_id.o"
 	@echo "... tests/test_message_id.i"
 	@echo "... tests/test_message_id.s"
-	@echo "... tests/test_owning_buffer.o"
-	@echo "... tests/test_owning_buffer.i"
-	@echo "... tests/test_owning_buffer.s"
 	@echo "... tests/test_ranges.o"
 	@echo "... tests/test_ranges.i"
 	@echo "... tests/test_ranges.s"
+	@echo "... tests/test_ring_buffer.o"
+	@echo "... tests/test_ring_buffer.i"
+	@echo "... tests/test_ring_buffer.s"
 .PHONY : help
 
 
@@ -696,6 +987,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P "/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

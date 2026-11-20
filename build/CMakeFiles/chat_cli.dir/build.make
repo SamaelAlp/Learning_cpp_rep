@@ -96,7 +96,10 @@ chat_cli_EXTERNAL_OBJECTS =
 chat_cli: CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o
 chat_cli: CMakeFiles/chat_cli.dir/build.make
 chat_cli: CMakeFiles/chat_cli.dir/compiler_depend.ts
-chat_cli: libchat_core.a
+chat_cli: libchat_infrastructure.a
+chat_cli: libchat_application.a
+chat_cli: /usr/local/lib/liblab_kafka.a
+chat_cli: /usr/lib/x86_64-linux-gnu/librdkafka.so
 chat_cli: CMakeFiles/chat_cli.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable chat_cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chat_cli.dir/link.txt --verbose=$(VERBOSE)

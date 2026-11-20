@@ -115,6 +115,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:UNINITIALIZED=/usr/local
+
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
 
@@ -210,6 +213,12 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
 INSTALL_GTEST:BOOL=OFF
 
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Value Computed by CMake
 chat_BINARY_DIR:STATIC=/home/apal/Рабочий стол/Learning_cpp/build
 
@@ -223,6 +232,12 @@ chat_SOURCE_DIR:STATIC=/home/apal/Рабочий стол/Learning_cpp
 googletest_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/GTest
 
 gtest_force_shared_crt:BOOL=ON
+
+//The directory containing a CMake configuration file for lab_kafka.
+lab_kafka_DIR:PATH=/usr/local/lib/cmake/lab_kafka
+
+//Path to a library.
+pkgcfg_lib_RDKAFKA_rdkafka:FILEPATH=/usr/lib/x86_64-linux-gnu/librdkafka.so
 
 
 ########################
@@ -362,4 +377,50 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v2.5.1()]
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+RDKAFKA_CFLAGS:INTERNAL=-I/usr/include;-I/usr/include/x86_64-linux-gnu;-isystem;/usr/include/mit-krb5;-isystem;/usr/include/mit-krb5;-I/usr/include/p11-kit-1;-I/usr/include/cjson
+RDKAFKA_CFLAGS_I:INTERNAL=
+RDKAFKA_CFLAGS_OTHER:INTERNAL=
+RDKAFKA_FOUND:INTERNAL=1
+RDKAFKA_INCLUDEDIR:INTERNAL=/usr/include
+RDKAFKA_INCLUDE_DIRS:INTERNAL=/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/p11-kit-1;/usr/include/cjson;/usr/include/mit-krb5;/usr/include/mit-krb5
+RDKAFKA_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lrdkafka
+RDKAFKA_LDFLAGS_OTHER:INTERNAL=
+RDKAFKA_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+RDKAFKA_LIBRARIES:INTERNAL=rdkafka
+RDKAFKA_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+RDKAFKA_LIBS:INTERNAL=
+RDKAFKA_LIBS_L:INTERNAL=
+RDKAFKA_LIBS_OTHER:INTERNAL=
+RDKAFKA_LIBS_PATHS:INTERNAL=
+RDKAFKA_MODULE_NAME:INTERNAL=rdkafka
+RDKAFKA_PREFIX:INTERNAL=/usr
+RDKAFKA_STATIC_CFLAGS:INTERNAL=-I/usr/include;-I/usr/include/x86_64-linux-gnu;-isystem;/usr/include/mit-krb5;-isystem;/usr/include/mit-krb5;-I/usr/include/p11-kit-1;-I/usr/include/cjson;-DCURL_STATICLIB
+RDKAFKA_STATIC_CFLAGS_I:INTERNAL=
+RDKAFKA_STATIC_CFLAGS_OTHER:INTERNAL=-isystem;/usr/include/mit-krb5;-isystem;/usr/include/mit-krb5;-DCURL_STATICLIB
+RDKAFKA_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include;/usr/include/x86_64-linux-gnu;/usr/include/p11-kit-1;/usr/include/cjson
+RDKAFKA_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lrdkafka;-lprotobuf-nanopb;-lm;-ldl;-lpthread;-lrt;-lpthread;-lrt;-lsasl2;-ldl;-lresolv;-lresolv;-lcurl;-llber;-lldap;-llber;-lssh2;-lssl;-lcrypto;-lcrypto;-lz;-lbrotlidec;-lbrotlicommon;-lzstd;-pthread;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lkrb5support;-lssl;-lpsl;-lssh2;-L/usr/lib/x86_64-linux-gnu;-lssl;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu;-lz;-lgpg-error;-lcrypto;-l:libjitterentropy.a;-lzstd;-ldl;-pthread;-lz;-lrtmp;-lz;-lgmp;-lgnutls;-lgmp;-lunistring;-latomic;-ltasn1;-lidn2;-L/usr/lib/x86_64-linux-gnu;-lunistring;-lp11-kit;-lhogweed;-lgmp;-lnettle;-lnghttp2;-llz4;-lxxhash;-lcjson;-lm
+RDKAFKA_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-pthread
+RDKAFKA_STATIC_LIBDIR:INTERNAL=
+RDKAFKA_STATIC_LIBRARIES:INTERNAL=rdkafka;protobuf-nanopb;m;dl;pthread;rt;pthread;rt;sasl2;dl;resolv;resolv;curl;lber;ldap;lber;ssh2;ssl;crypto;crypto;z;brotlidec;brotlicommon;zstd;gssapi_krb5;krb5;k5crypto;com_err;krb5support;ssl;psl;ssh2;ssl;z;gpg-error;crypto;:libjitterentropy.a;zstd;dl;z;rtmp;z;gmp;gnutls;gmp;unistring;atomic;tasn1;idn2;unistring;p11-kit;hogweed;gmp;nettle;nghttp2;lz4;xxhash;cjson;m
+RDKAFKA_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu
+RDKAFKA_STATIC_LIBS:INTERNAL=
+RDKAFKA_STATIC_LIBS_L:INTERNAL=
+RDKAFKA_STATIC_LIBS_OTHER:INTERNAL=
+RDKAFKA_STATIC_LIBS_PATHS:INTERNAL=
+RDKAFKA_VERSION:INTERNAL=2.13.0
+RDKAFKA_rdkafka_INCLUDEDIR:INTERNAL=
+RDKAFKA_rdkafka_LIBDIR:INTERNAL=
+RDKAFKA_rdkafka_PREFIX:INTERNAL=
+RDKAFKA_rdkafka_VERSION:INTERNAL=
+__pkg_config_arguments_RDKAFKA:INTERNAL=REQUIRED;IMPORTED_TARGET;rdkafka
+__pkg_config_checked_RDKAFKA:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_RDKAFKA_rdkafka
+pkgcfg_lib_RDKAFKA_rdkafka-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

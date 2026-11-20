@@ -1,7 +1,7 @@
 CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o: \
  /home/apal/Рабочий\ стол/Learning_cpp/tests/test_convert.cpp \
  /usr/include/stdc-predef.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/convert.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/convert.hpp \
  /usr/include/c++/15/charconv /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \

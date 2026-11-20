@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/apal/Рабочий стол/Learning_cpp/include"
+CXX_INCLUDES = -I"/home/apal/Рабочий стол/Learning_cpp/src/domain" -I"/home/apal/Рабочий стол/Learning_cpp/src/application" -I"/home/apal/Рабочий стол/Learning_cpp/src/infrastructure"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -DGTEST_HAS_PTHREAD=1
 

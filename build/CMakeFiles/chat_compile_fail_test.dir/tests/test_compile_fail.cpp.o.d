@@ -1,9 +1,9 @@
 CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o: \
  /home/apal/Рабочий\ стол/Learning_cpp/tests/test_compile_fail.cpp \
  /usr/include/stdc-predef.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/command_registry.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/command_handler.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/function_traits.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/command_registry.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/command_handler.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/function_traits.hpp \
  /usr/include/c++/15/cstddef \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
@@ -134,7 +134,7 @@ CMakeFiles/chat_compile_fail_test.dir/tests/test_compile_fail.cpp.o: \
  /usr/include/c++/15/bits/basic_string.tcc \
  /usr/include/c++/15/bits/memory_resource.h \
  /usr/include/c++/15/bits/uses_allocator_args.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/convert.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/src/application/convert.hpp \
  /usr/include/c++/15/charconv \
  /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
  /usr/include/c++/15/stdexcept /usr/include/c++/15/exception \
