@@ -1,0 +1,46 @@
+@startuml
+!theme plain
+title Sequence: /msg #general hello
+
+actor User
+participant "chat_cli\n(main)" as CLI
+participant "CommandRegistry" as Reg
+participant "tokenize()" as Lex
+participant "convert<T>()" as Conv
+participant "IChatStore" as Store
+participant "Room" as R
+participant "RingBuffer" as RB
+participant "IClock" as Clock
+participant "ILogSink" as Log
+
+User -> CLI: "/msg #general hello"
+CLI -> Lex: tokenize(line)
+Lex --> CLI: ["/msg", "#general", "hello"]
+
+CLI -> Reg: execute(line, tokens)
+Reg -> Reg: lookup "/msg" handler
+Reg -> Conv: convert<RoomName>("#general")
+Conv --> Reg: RoomName{"general"}
+Reg -> Conv: convert<string>("hello")
+Conv --> Reg: "hello"
+
+Reg -> Store: room("general")
+Store --> Reg: Room*
+
+Reg -> Clock: now()
+Clock --> Reg: Timestamp
+
+Reg -> R: add_message(TextMessage)
+R -> RB: push_back(msg)
+RB -> RB: write_pos = (head + size) % N
+RB -> RB: if full: head = (head+1) % N
+RB --> R: ok
+
+R -> Log: append("[msg] general: hello")
+Log --> R: ok
+
+R --> Reg: void
+Reg --> CLI: "Sent to general"
+CLI --> User: output
+
+@enduml

@@ -1,0 +1,1 @@
+#include "chat_core/text_message.hpp"

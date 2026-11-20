@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/apal/Рабочий стол/Learning_cpp/src/chat_store.cpp" "CMakeFiles/chat_core.dir/src/chat_store.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/chat_store.cpp.o.d"
   "/home/apal/Рабочий стол/Learning_cpp/src/command_registry.cpp" "CMakeFiles/chat_core.dir/src/command_registry.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/command_registry.cpp.o.d"
+  "/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp" "CMakeFiles/chat_core.dir/src/engine_factory.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/engine_factory.cpp.o.d"
   "/home/apal/Рабочий стол/Learning_cpp/src/lexer.cpp" "CMakeFiles/chat_core.dir/src/lexer.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/lexer.cpp.o.d"
   "/home/apal/Рабочий стол/Learning_cpp/src/message.cpp" "CMakeFiles/chat_core.dir/src/message.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/message.cpp.o.d"
   "/home/apal/Рабочий стол/Learning_cpp/src/owning_buffer.cpp" "CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o" "gcc" "CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o.d"

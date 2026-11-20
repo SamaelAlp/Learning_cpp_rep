@@ -142,13 +142,28 @@ CMakeFiles/chat_core.dir/src/command_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_core.dir/src/command_registry.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/src/command_registry.cpp" -o CMakeFiles/chat_core.dir/src/command_registry.cpp.s
 
+CMakeFiles/chat_core.dir/src/engine_factory.cpp.o: CMakeFiles/chat_core.dir/flags.make
+CMakeFiles/chat_core.dir/src/engine_factory.cpp.o: /home/apal/Рабочий\ стол/Learning_cpp/src/engine_factory.cpp
+CMakeFiles/chat_core.dir/src/engine_factory.cpp.o: CMakeFiles/chat_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chat_core.dir/src/engine_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chat_core.dir/src/engine_factory.cpp.o -MF CMakeFiles/chat_core.dir/src/engine_factory.cpp.o.d -o CMakeFiles/chat_core.dir/src/engine_factory.cpp.o -c "/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp"
+
+CMakeFiles/chat_core.dir/src/engine_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chat_core.dir/src/engine_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp" > CMakeFiles/chat_core.dir/src/engine_factory.cpp.i
+
+CMakeFiles/chat_core.dir/src/engine_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chat_core.dir/src/engine_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/apal/Рабочий стол/Learning_cpp/src/engine_factory.cpp" -o CMakeFiles/chat_core.dir/src/engine_factory.cpp.s
+
 # Object files for target chat_core
 chat_core_OBJECTS = \
 "CMakeFiles/chat_core.dir/src/message.cpp.o" \
 "CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o" \
 "CMakeFiles/chat_core.dir/src/chat_store.cpp.o" \
 "CMakeFiles/chat_core.dir/src/lexer.cpp.o" \
-"CMakeFiles/chat_core.dir/src/command_registry.cpp.o"
+"CMakeFiles/chat_core.dir/src/command_registry.cpp.o" \
+"CMakeFiles/chat_core.dir/src/engine_factory.cpp.o"
 
 # External object files for target chat_core
 chat_core_EXTERNAL_OBJECTS =
@@ -158,9 +173,10 @@ libchat_core.a: CMakeFiles/chat_core.dir/src/owning_buffer.cpp.o
 libchat_core.a: CMakeFiles/chat_core.dir/src/chat_store.cpp.o
 libchat_core.a: CMakeFiles/chat_core.dir/src/lexer.cpp.o
 libchat_core.a: CMakeFiles/chat_core.dir/src/command_registry.cpp.o
+libchat_core.a: CMakeFiles/chat_core.dir/src/engine_factory.cpp.o
 libchat_core.a: CMakeFiles/chat_core.dir/build.make
 libchat_core.a: CMakeFiles/chat_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libchat_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/apal/Рабочий стол/Learning_cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libchat_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/chat_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chat_core.dir/link.txt --verbose=$(VERBOSE)
 

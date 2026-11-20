@@ -257,6 +257,30 @@ src/command_registry.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/command_registry.cpp.s
 .PHONY : src/command_registry.cpp.s
 
+src/engine_factory.o: src/engine_factory.cpp.o
+.PHONY : src/engine_factory.o
+
+# target to build an object file
+src/engine_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/engine_factory.cpp.o
+.PHONY : src/engine_factory.cpp.o
+
+src/engine_factory.i: src/engine_factory.cpp.i
+.PHONY : src/engine_factory.i
+
+# target to preprocess a source file
+src/engine_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/engine_factory.cpp.i
+.PHONY : src/engine_factory.cpp.i
+
+src/engine_factory.s: src/engine_factory.cpp.s
+.PHONY : src/engine_factory.s
+
+# target to generate assembly for a file
+src/engine_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_core.dir/build.make CMakeFiles/chat_core.dir/src/engine_factory.cpp.s
+.PHONY : src/engine_factory.cpp.s
+
 src/lexer.o: src/lexer.cpp.o
 .PHONY : src/lexer.o
 
@@ -497,6 +521,102 @@ tests/test_dangling_range.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.s
 .PHONY : tests/test_dangling_range.cpp.s
 
+tests/test_fnv1a.o: tests/test_fnv1a.cpp.o
+.PHONY : tests/test_fnv1a.o
+
+# target to build an object file
+tests/test_fnv1a.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o
+.PHONY : tests/test_fnv1a.cpp.o
+
+tests/test_fnv1a.i: tests/test_fnv1a.cpp.i
+.PHONY : tests/test_fnv1a.i
+
+# target to preprocess a source file
+tests/test_fnv1a.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.i
+.PHONY : tests/test_fnv1a.cpp.i
+
+tests/test_fnv1a.s: tests/test_fnv1a.cpp.s
+.PHONY : tests/test_fnv1a.s
+
+# target to generate assembly for a file
+tests/test_fnv1a.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.s
+.PHONY : tests/test_fnv1a.cpp.s
+
+tests/test_hash_engine.o: tests/test_hash_engine.cpp.o
+.PHONY : tests/test_hash_engine.o
+
+# target to build an object file
+tests/test_hash_engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o
+.PHONY : tests/test_hash_engine.cpp.o
+
+tests/test_hash_engine.i: tests/test_hash_engine.cpp.i
+.PHONY : tests/test_hash_engine.i
+
+# target to preprocess a source file
+tests/test_hash_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.i
+.PHONY : tests/test_hash_engine.cpp.i
+
+tests/test_hash_engine.s: tests/test_hash_engine.cpp.s
+.PHONY : tests/test_hash_engine.s
+
+# target to generate assembly for a file
+tests/test_hash_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.s
+.PHONY : tests/test_hash_engine.cpp.s
+
+tests/test_history_iterator.o: tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.o
+
+# target to build an object file
+tests/test_history_iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o
+.PHONY : tests/test_history_iterator.cpp.o
+
+tests/test_history_iterator.i: tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.i
+
+# target to preprocess a source file
+tests/test_history_iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.i
+.PHONY : tests/test_history_iterator.cpp.i
+
+tests/test_history_iterator.s: tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.s
+
+# target to generate assembly for a file
+tests/test_history_iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.s
+.PHONY : tests/test_history_iterator.cpp.s
+
+tests/test_invalidation.o: tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.o
+
+# target to build an object file
+tests/test_invalidation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o
+.PHONY : tests/test_invalidation.cpp.o
+
+tests/test_invalidation.i: tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.i
+
+# target to preprocess a source file
+tests/test_invalidation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.i
+.PHONY : tests/test_invalidation.cpp.i
+
+tests/test_invalidation.s: tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.s
+
+# target to generate assembly for a file
+tests/test_invalidation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.s
+.PHONY : tests/test_invalidation.cpp.s
+
 tests/test_lexer.o: tests/test_lexer.cpp.o
 .PHONY : tests/test_lexer.o
 
@@ -617,6 +737,30 @@ tests/test_ranges.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ranges.cpp.s
 .PHONY : tests/test_ranges.cpp.s
 
+tests/test_ring_buffer.o: tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.o
+
+# target to build an object file
+tests/test_ring_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o
+.PHONY : tests/test_ring_buffer.cpp.o
+
+tests/test_ring_buffer.i: tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.i
+
+# target to preprocess a source file
+tests/test_ring_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.i
+.PHONY : tests/test_ring_buffer.cpp.i
+
+tests/test_ring_buffer.s: tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.s
+
+# target to generate assembly for a file
+tests/test_ring_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_tests.dir/build.make CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.s
+.PHONY : tests/test_ring_buffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -640,6 +784,9 @@ help:
 	@echo "... src/command_registry.o"
 	@echo "... src/command_registry.i"
 	@echo "... src/command_registry.s"
+	@echo "... src/engine_factory.o"
+	@echo "... src/engine_factory.i"
+	@echo "... src/engine_factory.s"
 	@echo "... src/lexer.o"
 	@echo "... src/lexer.i"
 	@echo "... src/lexer.s"
@@ -670,6 +817,18 @@ help:
 	@echo "... tests/test_dangling_range.o"
 	@echo "... tests/test_dangling_range.i"
 	@echo "... tests/test_dangling_range.s"
+	@echo "... tests/test_fnv1a.o"
+	@echo "... tests/test_fnv1a.i"
+	@echo "... tests/test_fnv1a.s"
+	@echo "... tests/test_hash_engine.o"
+	@echo "... tests/test_hash_engine.i"
+	@echo "... tests/test_hash_engine.s"
+	@echo "... tests/test_history_iterator.o"
+	@echo "... tests/test_history_iterator.i"
+	@echo "... tests/test_history_iterator.s"
+	@echo "... tests/test_invalidation.o"
+	@echo "... tests/test_invalidation.i"
+	@echo "... tests/test_invalidation.s"
 	@echo "... tests/test_lexer.o"
 	@echo "... tests/test_lexer.i"
 	@echo "... tests/test_lexer.s"
@@ -685,6 +844,9 @@ help:
 	@echo "... tests/test_ranges.o"
 	@echo "... tests/test_ranges.i"
 	@echo "... tests/test_ranges.s"
+	@echo "... tests/test_ring_buffer.o"
+	@echo "... tests/test_ring_buffer.i"
+	@echo "... tests/test_ring_buffer.s"
 .PHONY : help
 
 

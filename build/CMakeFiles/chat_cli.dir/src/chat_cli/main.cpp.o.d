@@ -135,7 +135,7 @@ CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o: \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/message.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/iclock.hpp \
  /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
  /usr/include/c++/15/ratio /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
@@ -215,7 +215,9 @@ CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o: \
  /usr/include/c++/15/bits/formatfwd.h \
  /usr/include/c++/15/bits/ranges_algobase.h \
  /usr/include/c++/15/bits/unicode.h \
- /usr/include/c++/15/bits/unicode-data.h /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/unicode-data.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
+ /usr/include/c++/15/memory \
  /usr/include/c++/15/bits/stl_raw_storage_iter.h \
  /usr/include/c++/15/bits/shared_ptr_atomic.h \
  /usr/include/c++/15/bits/atomic_base.h \
@@ -247,8 +249,11 @@ CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o: \
  /usr/include/c++/15/bits/ranges_uninitialized.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
  /usr/include/c++/15/pstl/execution_defs.h /usr/include/c++/15/utility \
- /usr/include/c++/15/bits/stl_relops.h /usr/include/c++/15/algorithm \
- /usr/include/c++/15/bits/ranges_algo.h \
+ /usr/include/c++/15/bits/stl_relops.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/ring_buffer.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/history_iterator.hpp \
+ /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
+ /usr/include/c++/15/algorithm /usr/include/c++/15/bits/ranges_algo.h \
  /usr/include/c++/15/pstl/glue_algorithm_defs.h \
  /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
  /usr/include/c++/15/unordered_map \
@@ -259,10 +264,14 @@ CMakeFiles/chat_cli.dir/src/chat_cli/main.cpp.o: \
  /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/map \
  /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
  /usr/include/c++/15/bits/stl_multimap.h /usr/include/c++/15/ranges \
- /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/command_registry.hpp \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/command_handler.hpp \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/function_traits.hpp \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/convert.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/real_clock.hpp \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/i_chat_store.hpp \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/lexer.hpp \
+ /usr/include/c++/15/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/15/iostream

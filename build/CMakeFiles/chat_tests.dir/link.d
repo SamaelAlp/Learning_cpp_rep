@@ -13,6 +13,11 @@ chat_tests: \
   CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o \
   CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o \
   CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o \
+  CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o \
   libchat_core.a \
   /usr/lib/x86_64-linux-gnu/libgtest_main.a \
   /usr/lib/x86_64-linux-gnu/libgtest.a \
@@ -71,6 +76,16 @@ CMakeFiles/chat_tests.dir/tests/test_dangling_range.cpp.o:
 CMakeFiles/chat_tests.dir/tests/test_convert.cpp.o:
 
 CMakeFiles/chat_tests.dir/tests/test_command_registry.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_ring_buffer.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_history_iterator.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_invalidation.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_hash_engine.cpp.o:
+
+CMakeFiles/chat_tests.dir/tests/test_fnv1a.cpp.o:
 
 libchat_core.a:
 

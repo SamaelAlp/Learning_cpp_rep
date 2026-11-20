@@ -2,8 +2,8 @@ CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: \
  /home/apal/Рабочий\ стол/Learning_cpp/tests/test_message_id.cpp \
  /usr/include/stdc-predef.h \
  /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/message.hpp \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
- /usr/include/c++/15/cstddef \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp \
+ /usr/include/c++/15/concepts /usr/include/c++/15/bits/version.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -14,11 +14,7 @@ CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
- /usr/include/c++/15/pstl/pstl_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
- /usr/include/c++/15/bits/version.h \
- /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/concepts.hpp \
- /usr/include/c++/15/concepts /usr/include/c++/15/type_traits \
+ /usr/include/c++/15/pstl/pstl_config.h /usr/include/c++/15/type_traits \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/bits/stringfwd.h \
  /usr/include/c++/15/bits/memoryfwd.h \
@@ -28,6 +24,7 @@ CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
@@ -129,16 +126,17 @@ CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/15/bits/charconv.h \
  /usr/include/c++/15/bits/basic_string.tcc \
- /usr/include/c++/15/bits/memory_resource.h \
+ /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/include/c++/15/bits/ranges_util.h /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/stl_uninitialized.h \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/chrono \
- /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
- /usr/include/c++/15/cstdint \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/iclock.hpp \
+ /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
+ /usr/include/c++/15/ratio /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
@@ -216,7 +214,9 @@ CMakeFiles/chat_tests.dir/tests/test_message_id.cpp.o: \
  /usr/include/c++/15/bits/formatfwd.h \
  /usr/include/c++/15/bits/ranges_algobase.h \
  /usr/include/c++/15/bits/unicode.h \
- /usr/include/c++/15/bits/unicode-data.h /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/unicode-data.h \
+ /home/apal/Рабочий\ стол/Learning_cpp/include/chat_core/spy.hpp \
+ /usr/include/c++/15/memory \
  /usr/include/c++/15/bits/stl_raw_storage_iter.h \
  /usr/include/c++/15/bits/shared_ptr_atomic.h \
  /usr/include/c++/15/bits/atomic_base.h \

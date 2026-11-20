@@ -1,0 +1,122 @@
+@startuml
+!theme plain
+skinparam classAttributeIconSize 0
+
+title Chat Core — Class Diagram (Stage 9, "after")
+
+' ── Интерфейсы ───────────────────────────────────────────────
+interface IClock {
+    +now() Timestamp
+}
+
+interface ILogSink {
+    +append(string)
+}
+
+interface IChatStore {
+    +create_room(string)
+    +room(string) Room*
+    +create_user(string) UserPtr
+    +add_message(string, MessagePtr)
+    +for_each_room_sorted(F)
+}
+
+' ── Доменные классы ──────────────────────────────────────────
+class MessageId {
+    +seq : uint64_t
+    +ts : Timestamp
+    +author_nickname : string
+    +operator<=>()
+    +operator==()
+}
+
+abstract class IMessage {
+    +id() : MessageId
+    +author() : string
+    +render() : string
+    +type_name() : string
+    +try_react() : bool
+}
+
+class TextMessage
+class SystemMessage
+class ReactionMessage
+
+class Room {
+    -messages_ : RingBuffer<MessagePtr, 1000>
+    -participants_ : vector<weak_ptr<User>>
+    +add_message(MessagePtr)
+    +message_at(size_t) : IMessage*
+    +add_participant(UserPtr)
+    +participant_count() : size_t
+}
+
+class User {
+    -nickname_ : string
+}
+
+class RingBuffer {
+    -data_ : unique_ptr<T[]>
+    -size_ : size_t
+    -head_ : size_t
+    +push_back(T)
+    +operator[](size_t)
+}
+
+class HistoryIterator
+
+' ── Реализации ───────────────────────────────────────────────
+class RealClock
+class FakeClock
+
+class FileLogSink
+class MemoryLogSink
+class NullLogSink
+
+class StdEngine
+class HashEngine
+
+class HashTable
+
+class CommandRegistry
+class Fnv1aHash
+class BadHash
+
+' ── Отношения ────────────────────────────────────────────────
+' Наследование
+IMessage <|-- TextMessage
+IMessage <|-- SystemMessage
+IMessage <|-- ReactionMessage
+
+IClock <|.. RealClock
+IClock <|.. FakeClock
+
+ILogSink <|.. FileLogSink
+ILogSink <|.. MemoryLogSink
+ILogSink <|.. NullLogSink
+
+IChatStore <|.. StdEngine
+IChatStore <|.. HashEngine
+
+' Композиция (сильное владение)
+Room *-- RingBuffer : messages
+Room *-- "0..*" User : participants (weak_ptr)
+RingBuffer *-- "0..N" T : elements
+
+' Агрегация / использование
+StdEngine o-- Room : rooms (map)
+StdEngine o-- User : users (map)
+HashEngine *-- HashTable : rooms
+HashEngine *-- HashTable : users
+HashTable *-- Fnv1aHash : hash
+
+' Зависимости
+MessageId ..> Timestamp : uses
+IMessage ..> MessageId : returns
+CommandRegistry ..> IChatStore : uses
+Room ..> IMessage : stores
+Room ..> IClock : uses (для timestamp)
+
+HistoryIterator --> RingBuffer : iterates over
+
+@enduml
